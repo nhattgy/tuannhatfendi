@@ -1,0 +1,63 @@
+.banner__item {
+  width: 100%;
+}
+
+.banner__row {
+  display: flex;
+}
+
+.text__shopwomen {
+  position: absolute;
+  transform: translateY(-130%);
+  margin: 0 4rem;
+  font-size: 55px;
+  color: #fff;
+}
+.banner3__homepage {
+  display: flex;
+}
+.text__shopboy {
+  position: absolute;
+  transform: translateY(-130%);
+  margin: 0 4rem;
+
+  font-size: 55px;
+  color: #fff;
+}
+.text__shopwomen:hover,
+.text__shopboy:hover {
+  cursor: pointer; /* Thay đổi con trỏ chuột khi hover */
+}
+
+.btn__text {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.btn__banner6 {
+  position: absolute;
+  transform: translateY(-450%);
+  margin: 2rem 4rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 1022px) {
+  .banner__row {
+    flex-direction: column;
+  }
+  .banner3__homepage {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 739px) {
+    .text__shopwomen {
+      font-size: 2rem;
+    }
+    .text__shopboy {
+      font-size: 2rem;
+    }
+    .banner3__homepage {
+      display: none;
+    }
+  }
+}

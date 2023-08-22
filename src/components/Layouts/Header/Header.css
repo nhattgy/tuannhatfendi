@@ -1,0 +1,286 @@
+.Header-container {
+  display: flex;
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  padding: 10px 20px; /* Để tạo khoảng cách xung quanh header */
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1000;
+}
+.Header-container.scrolled {
+  background-color: white; /* Màu nền trắng khi scroll */
+  color: black; /* Màu chữ đen khi scroll */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng cho header */
+}
+.Header-container.scrolled .nav__icon svg,
+.Header-container.scrolled .nav__mobile svg,
+.Header-container.scrolled .navbar__limobiletablet svg {
+  fill: black; /* Màu fill (màu biểu tượng) đen khi scroll */
+}
+.Header-container:hover {
+  background-color: #fff;
+}
+.Header-container:hover .navbar__li {
+  color: black;
+}
+.Header-container:hover .navbar__icon svg {
+  fill: black;
+}
+.Logo {
+  padding: 0px 20px;
+}
+.navbar__pc {
+  display: flex;
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+}
+
+.navbar__ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__li {
+  margin-right: 20px; /* Khoảng cách giữa các mục trong navbar */
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Dùng flexbox để ngăn đẩy lên */
+}
+
+.navbar__li {
+  position: relative;
+  padding-bottom: 4px;
+  cursor: pointer;
+  color: #000; /* Màu chữ mặc định */
+  transition: color 0.2s, padding-bottom 0.2s; /* Thêm transition */
+}
+
+.navbar__li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0); /* Thêm transform để tạo hiệu ứng */
+  transform-origin: left center; /* Đặt điểm gốc của transform */
+  transition: transform 0.2s, background-color 0.2s; /* Thêm transition */
+}
+
+.navbar__li:hover {
+  color: #000; /* Màu chữ khi hover */
+}
+
+.navbar__li:hover::after {
+  background-color: #000; /* Màu gạch chân khi hover */
+  transform: scaleX(1); /* Hiển thị hiệu ứng gạch chân */
+}
+.navbar__icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.nav__icon {
+  margin: 5px 50px;
+  line-height: 28px;
+  gap: 20px;
+  display: flex;
+}
+.nav__icon svg {
+  width: 29px;
+  height: 29px;
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+}
+.nav__icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav__icon svg {
+  color: #8d7f7f;
+  margin: 0 10px; /* Tạo khoảng cách giữa các biểu tượng */
+  transition: transform 0.3s ease-in-out; /* Hiệu ứng mượt mà */
+}
+
+.nav__icon svg:hover {
+  transform: translateY(-3px); /* Hiệu ứng nâng lên khi hover */
+}
+
+.nav__icon svg:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px; /* Độ dày của gạch chân */
+  background-color: black; /* Màu đen */
+  position: absolute;
+  bottom: -5px; /* Điều chỉnh vị trí của gạch chân */
+  left: 0;
+  transition: width 0.3s ease-in-out; /* Hiệu ứng mượt mà khi thay đổi chiều dài */
+}
+.nav__icon {
+  position: relative;
+}
+
+.nav__icon {
+  display: flex;
+  align-items: center;
+}
+
+.menu__icon {
+  display: none;
+}
+.nav__icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav__icon svg {
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.nav__icon {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  position: relative;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 3.1rem;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 100; /* Đảm bảo bảng hiển thị trên top */
+  width: 300px; /* Tuỳ chỉnh độ rộng của bảng popup */
+}
+
+.user-icon:hover .popup {
+  display: block;
+}
+.btn__loginheader .btn__login {
+  text-decoration: none;
+
+  padding: 3px 90px; /* Điều chỉnh khoảng cách giữa nút và viền của nút */
+  background-color: #000;
+  border: 2px solid transparent; /* Viền trong suốt ban đầu */
+  color: #fff; /* Màu chữ */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+.btn__login,
+.btn__loginheader :hover {
+  background-color: #f9b949;
+  border-color: #f9b949;
+  color: #000; /* Màu chữ khi hover */
+}
+.btn__signupheader {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.btn__signup {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+.btn__signup:hover {
+  color: red;
+}
+.navbar__ulmobiletablet {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 17px;
+}
+
+.navbar__ulmobiletablet.open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Các phần tử con nằm bên trái */
+  justify-content: flex-start; /* Các phần tử con nằm bên trên */
+  z-index: 1;
+}
+
+.navbar__limobiletablet {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.line {
+  border-top: 1px solid #000; /* Độ dày và màu của đường thẳng */
+  width: 98%; /* Chiều rộng của đường thẳng */
+  margin-left: 17px;
+}
+.arrow__menu {
+  position: absolute;
+  right: 0rem;
+
+  width: 25px;
+  height: 16px;
+}
+
+/* Tablet and Mobile */
+@media screen and (max-width: 1022px) {
+  .navbar__pc {
+    display: none;
+  }
+  .Header-container {
+    position: static;
+  }
+  .menu__icon {
+    display: block;
+    margin: 0 30px;
+    background-color: transparent;
+    border: none;
+  }
+  .navbar__mobiletablet.open .navbar__ulmobiletablet {
+    display: block;
+  }
+  .Header-container {
+    background-color: transparent;
+  }
+  .nav__icon svg {
+    width: 29px;
+    height: 29px;
+    margin: 0 5px;
+    color: #000;
+    cursor: pointer;
+  }
+  .nav__icon {
+    margin: 0 5px;
+  }
+  .navbar__limobiletablet {
+    margin: 1rem;
+  }
+  .nav__menu {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+  }
+}

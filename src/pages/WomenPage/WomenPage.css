@@ -1,0 +1,270 @@
+.main-content {
+  width: 100%;
+  margin-top: 7rem;
+}
+.separator {
+  border-top: 1px solid #ccc; /* Sử dụng border-top để tạo đường kẻ phía trên */
+}
+.ul__link {
+  display: flex;
+}
+/* WomenPage.css */
+.btn__link {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.ul__link {
+  display: flex;
+  gap: 10px;
+}
+
+.li__link {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.li__link.active,
+.li__link:hover {
+  background-color: #f9b949;
+  color: #000;
+}
+
+.li__link {
+  cursor: pointer;
+  background-color: transparent;
+  color: #000;
+  margin: 0 1rem;
+  border: 1px solid #f1eaea;
+  padding: 14px 30px;
+  font-size: 14px;
+  width: max-content;
+}
+/* WomenPage.css */
+.text__content {
+  text-align: center; /* Căn giữa theo trục ngang */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa theo trục dọc */
+  margin-top: 2rem;
+}
+
+.h1__contentwomen {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.seo__content {
+  font-size: 15px;
+  max-width: 556px;
+}
+//Products
+.main__product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.map__method {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.product__item {
+  flex: 0 0 calc(33.33% - 2px);
+  max-width: calc(33.33% - 2px);
+}
+
+.img__products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*name title*/
+
+.span__nameproduct {
+  text-align: center;
+  background-color: #f7f7f7;
+  margin-top: -5px;
+}
+.name__product,
+.span__product {
+  color: #000;
+  text-decoration: none;
+  display: inline;
+  font-family: Founders-Grotesk;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.img__women:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/*hover */
+.img__container {
+  position: relative;
+  margin: 0 -43px;
+}
+
+.img__women2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.img__container:hover .img__women2 {
+  opacity: 1;
+}
+.favorite-icon-container {
+  display: none;
+}
+.img__container:hover .favorite-icon-container {
+  display: block;
+}
+.img__women:hover {
+  opacity: 0;
+}
+/*View more */
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+.view-more-button {
+  background-color: #000000;
+  border-color: #000000;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Founders-Grotesk;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 14px;
+  margin: 65px 0px;
+  padding: 15px 24.9999px;
+}
+.view-more-button:hover {
+  background-color: #f9b949;
+  border-color: #f9b949;
+  cursor: pointer;
+  color: #000;
+}
+@media screen and (max-width: 1225px) {
+  .btn__link {
+    overflow-x: auto;
+  }
+
+  .ul__link {
+    display: flex;
+    gap: 10px;
+    min-width: fit-content;
+  }
+  .li__link {
+    width: max-content;
+  }
+  .main-content {
+    margin: 0;
+  }
+  .h1__contentwomen {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .seo__content {
+    padding: 3px 18px;
+  }
+  .product__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 2px);
+    max-width: calc(50% - 2px);
+  }
+  .img__women {
+    width: 100%;
+  }
+  .img__women2 {
+    width: 100%;
+  }
+  .name__products {
+    background-color: transparent;
+    color: #000;
+    font-size: 12px;
+    top: 0;
+  }
+  .img__container {
+    position: relative;
+  }
+
+  .img__container:hover .name__products {
+    display: none;
+  }
+  .favorite-icon-container {
+    display: block;
+  }
+}
+/*favorite icon */
+.favorite-icon-container {
+  position: absolute;
+  top: 0;
+  right: 43px;
+  padding: 8px;
+}
+.favorite__icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.favorite__icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.favorite__icon:hover {
+  transform: scale(1.2);
+}
+.favorite__icon.filled {
+  color: red; /* You can change this to the color you want for the filled heart */
+  /* styles for the filled heart icon */
+}
+/*screen Mobile*/
+@media screen and (max-width: 764px) {
+  .name__product {
+    font-size: 12px;
+  }
+
+  .span__product {
+    display: none;
+  }
+}
+/*screen Nethub */
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  .product__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 2px);
+    max-width: calc(50% - 2px);
+  }
+  .img__women {
+    width: 100%;
+  }
+  .img__women2 {
+    width: 100%;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+}
