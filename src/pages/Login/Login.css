@@ -26,7 +26,7 @@
 .image-section {
   flex: 2; /* Chiếm 1/3 chiều rộng của container cha */
   background-color: rgba(0, 0, 0, 0.1); /* Background mờ */
-  background-image: url("https://static.fendi.com/on/demandware.static/-/Library-Sites-fendiSharedLibrary/default/dw36a348e5/images/login-desktop.jpg?hash=f1728b86b757d3375a60db539c6683c9-185bed16e73&wid=1466&hei=1466&sw=1466&sh=1466"); /* Đường dẫn hình ảnh */
+  background-image: url("https:\\static.fendi.com\\on\\demandware.static\\-/Library-Sites-fendiSharedLibrary/default/dw36a348e5/images/login-desktop.jpg?hash=f1728b86b757d3375a60db539c6683c9-185bed16e73&wid=1466&hei=1466&sw=1466&sh=1466"); /* Đường dẫn hình ảnh */
   background-size: cover;
   background-position: center;
 }

@@ -1,0 +1,802 @@
+[
+    {
+     "price": 6000,
+     "description": "Iconic medium Baguette bag, made of natural-colour canvas with a raised FF motif embroidered in multicolour yarn.Finished with a dove grey leather trim and embellished with an FF clasp.Featuring a front flap, magnetic clasp, internal compartment with zip pocket and vintage gold-finish metalware. The bag can be carried by hand, or worn either on the shoulder or cross-body thanks to the handle and shoulder strap, both detachable",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BR600ANH4F1LF5_01?wid=632&hei=632&hash=7f30217b6dcc6ad7996f2eddb3071ab3-188fba59718&sw=632&sh=632",
+     "name": "BAGUETTE",
+     "title": "Multicolour canvas bags with FF embroidery",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BR600ANH4F1LF5_99?wid=632&hei=632&hash=e8f8c2e8250603b5cfbca7616ac74908-189d5aa9a78&sw=632&sh=632",
+     "id": "1"
+    },
+    {
+     "price": 6800,
+     "description": "Iconic medium Baguette bag, made of natural-colour canvas with a raised FF motif embroidered in multicolour yarn.Finished with a dove grey leather trim and embellished with an FF clasp.Featuring a front flap, magnetic clasp, internal compartment with zip pocket and vintage gold-finish metalware. The bag can be carried by hand, or worn either on the shoulder or cross-body thanks to the handle and shoulder strap, both detachable",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BR600A6V5F17U4_01?wid=632&hei=632&hash=b529d93a0a910e8caf17a3a9e58081bd-181fbd3e180&sw=632&sh=632",
+     "name": "BAGUETTE",
+     "title": "Jacquard FF fabric bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BR600A6V5F17U4_99?wid=632&hei=632&hash=6dfd7e9b6fcf21cca20ee3c57161b053-18723287e08&sw=632&sh=632",
+     "id": "2"
+    },
+    {
+     "price": 1300,
+     "description": "Iconic medium Baguette bag, made of natural-colour canvas with a raised FF motif embroidered in multicolour yarn.Finished with a dove grey leather trim and embellished with an FF clasp.Featuring a front flap, magnetic clasp, internal compartment with zip pocket and vintage gold-finish metalware. The bag can be carried by hand, or worn either on the shoulder or cross-body thanks to the handle and shoulder strap, both detachable",
+     "category": "category 3",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8C0649ALUOF1EM3_01?wid=632&hei=632&hash=e1f37cd44c02e92ad58adabb4fb01ec2-1831c012913&sw=632&sh=632",
+     "name": "FF BELT",
+     "title": "Brown fabric belt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8C0649ALUOF1EM3_99?wid=632&hei=632&hash=2c3dd0b086dff67110279b26255112a8-189d5aaae00&sw=632&sh=632",
+     "id": "3"
+    },
+    {
+     "price": 3700,
+     "description": "description 4",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ08F1MJE_01?wid=632&hei=632&hash=649b098daf08d1f50ef244d3cc572a0c-189253ba060&sw=632&sh=632",
+     "name": "C'MON SMALL",
+     "title": "Brown FF jacquard fabric bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ08F1MJE_99?wid=632&hei=632&hash=f708f0e9a5458f4e92bb317ae4cbf917-189d5aabda0&sw=632&sh=632",
+     "id": "4"
+    },
+    {
+     "price": 5000,
+     "description": "description 5",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BT366AQ0KF1LEY_01-1?wid=632&hei=632&hash=3f6a3503e1f9292504cd832beea49faa-189252ebb98&sw=632&sh=632",
+     "name": "C’MON MEDIUM",
+     "title": "BROWN FF JACQUARD FABRIC BAG",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BT366AQ0KF1LEY_05?wid=632&hei=632&hash=26d1c4aaf9d4365bcf9ef0bac0a10513-1892517e008&sw=632&sh=632",
+     "id": "5"
+    },
+    {
+     "price": 4300,
+     "description": "description 6",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1550_01?wid=632&hei=632&hash=942ddaf1c1f27ca1ab472ef05ede5c67-1892532bef0&sw=632&sh=632",
+     "name": "C’MON MINI",
+     "title": "Beige flannel skirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1550_99?wid=632&hei=632&hash=17156927acc4efae8a628399180cae0e-189d5ab5dc8&sw=632&sh=632",
+     "id": "6"
+    },
+    {
+     "price": 80,
+     "description": "description 7",
+     "category": "category 7",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8AK335B08F0CFK_01?wid=632&hei=632&hash=cb1da391d9e84eb4387e726b5854a7b3-189065e7378&sw=632&sh=632",
+     "name": "FOREVER FENDI BRACELET",
+     "title": "Beige flannel skirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8AK335B08F0CFK_99?wid=632&hei=632&hash=5931b738efd57a7c0d8db313a19e7140-189d5ab7920&sw=632&sh=632",
+     "id": "7"
+    },
+    {
+     "price": 0,
+     "description": "description 8",
+     "category": "category 8",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FZDB59AOEPF1MSF_01?wid=632&hei=632&hash=42317a4af10e65039632a2780bf19e1e-188fba1523c&sw=632&sh=632",
+     "name": "DRESS",
+     "title": "Beige flannel skirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FZDB59AOEPF1MSF_99?wid=632&hei=632&hash=a3c3b5e0ec88fddb7eaeab6f3df0a01c-189d5ab6598&sw=632&sh=632",
+     "id": "8"
+    },
+    {
+     "price": 32,
+     "description": "description 9",
+     "category": "category 9",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8J8446AOMMF0ABB_01?wid=632&hei=632&hash=2a390a376f967eb7af0110159f119bfb-188fba3eea7&sw=632&sh=632",
+     "name": "COLIBRÌ LITE",
+     "title": "Camellia interlaced leather bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8J8446AOMMF0ABB_04?wid=632&hei=632&hash=846c52d5e860227a888a351580c724c7-188fba3f4ad&sw=632&sh=632",
+     "id": "9"
+    },
+    {
+     "price": 69,
+     "description": "description 10",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1LEY_01-1?wid=632&hei=632&hash=20b96f9736e80f7719e6de1a4c0a2d03-18925306948&sw=632&sh=632",
+     "name": "C’MON MINI",
+     "title": "Camellia interlaced leather bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1LEY_99?wid=632&hei=632&hash=e81f271bf1eb5b2b27226b89ca9de8aa-189d5aa92a8&sw=632&sh=632",
+     "id": "10"
+    },
+    {
+     "price": 1,
+     "description": "description 11",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BT366AQ0KF04TX_01?wid=632&hei=632&hash=e973bce677a406c7b294f1682fac8cef-189253bb000&sw=632&sh=632",
+     "name": "C’MON MEDIUM",
+     "title": "White leather mini bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BT366AQ0KF04TX_99?wid=632&hei=632&hash=8de2aa69e77b17cc0024a867d279a0a9-189d5ab7538&sw=632&sh=632",
+     "id": "11"
+    },
+    {
+     "price": 88,
+     "description": "description 12",
+     "category": "Bags",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1LF0_01?wid=632&hei=632&hash=e394ba71510c1d4ae5d2c9b20c02c01a-189251bc420&sw=632&sh=632",
+     "name": "C’MON MINI",
+     "title": "White leather mini bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BS082AQ0LF1LF0_05?wid=632&hei=632&hash=1211246bbce294dcd0d885d322428668-189253bbfa0&sw=632&sh=632",
+     "id": "12"
+    },
+    {
+     "price": 15,
+     "description": "description 13",
+     "category": "category 13",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FJ7450AM3PF1M2A_01?wid=632&hei=632&hash=25bbe4010369d55279e3fd478c1d1bde-188fba1ca74&sw=632&sh=632",
+     "name": "JACKET",
+     "title": "White leather mini bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FJ7450AM3PF1M2A_99?wid=632&hei=632&hash=da10f88e5d7da2a872aba4c4323e862a-189d5aac958&sw=632&sh=632",
+     "id": "13"
+    },
+    {
+     "price": 18,
+     "description": "description 14",
+     "category": "category 14",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FQ7505AM3PF1M2A_01?wid=632&hei=632&hash=b7a469b1b845c1c5eeda496fb4cf141c-188fba187b7&sw=632&sh=632",
+     "name": "SKIRT",
+     "title": "White leather mini bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FQ7505AM3PF1M2A_99?wid=632&hei=632&hash=52d1afaebecfc6695906d6d2a48b6899-189d5ab6598&sw=632&sh=632",
+     "id": "14"
+    },
+    {
+     "price": 41,
+     "description": "description 15",
+     "category": "Ready to Wear",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BP129APZ6F0VWM_01-1?wid=632&hei=632&hash=506c072ab74b5b83792f809f330798e2-188fba6b3fc&sw=632&sh=632",
+     "name": "FENDI FIRST SMALL",
+     "title": "Light blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BP129APZ6F0VWM_99?wid=632&hei=632&hash=1c168b806b0f5f9885eb52cf7e3e3261-189d5ab7920&sw=632&sh=632",
+     "id": "15"
+    },
+    {
+     "price": 53,
+     "description": "description 16",
+     "category": "Ready to Wear",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8AG745B08F0CFK_01?wid=632&hei=632&hash=910a99c4c6d08935a86aaf1d6b3e4585-188e8fc7840&sw=632&sh=632",
+     "name": "F IS FENDI EARRINGS",
+     "title": "Light blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8AG745B08F0CFK_99?wid=632&hei=632&hash=49d0eee93697a2777d73b094fd72b34b-18722f21c28&sw=632&sh=632",
+     "id": "16"
+    },
+    {
+     "price": 34,
+     "description": "description 17",
+     "category": "Ready to Wear",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8R8212AOLTF0PT4_01?wid=632&hei=632&hash=939ec65058536a5407e84077e0423ad2-189497b2147&sw=632&sh=632",
+     "name": "FENDI FIRST",
+     "title": "Light blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8R8212AOLTF0PT4_04?wid=632&hei=632&hash=b3c6e0f0670bcabd31678841cef2d7c8-1894a1f2fc4&sw=632&sh=632",
+     "id": "17"
+    },
+    {
+     "price": 41,
+     "description": "description 18",
+     "category": "category 18",
+     "image": "https://static.fendi.com/dam/is/image/fendi/8BS081A5DYF1HEL_01?wid=632&hei=632&hash=b8bb0e78afebe4a524c7ef8208ce3089-1896871cda0&sw=632&sh=632",
+     "name": "FENDIGRAPHY MINI",
+     "title": "Light blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/8BS081A5DYF1HEL_04?wid=632&hei=632&hash=45347214fe8be48c39454d0fcaa7c050-1896871e128&sw=632&sh=632",
+     "id": "18"
+    },
+    {
+     "price": 13,
+     "description": "description 19",
+     "category": "Ready to Wear",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FS8000AFLKF1M29_01?wid=632&hei=632&hash=4f0bcd708d237269a4cb6dc4b4afcaa2-188fba18c40&sw=632&sh=632",
+     "name": "SHIRT",
+     "title": "Light blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FS8000AFLKF1M29_99?wid=632&hei=632&hash=c0bbe1cf79b3af80b1dabd0e5961be6f-189d5ab6598&sw=632&sh=632",
+     "id": "19"
+    },
+    {
+     "price": 40,
+     "description": "description 20",
+     "category": "category 20",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FF8998AM3UF0TU7_01-1?wid=632&hei=632&hash=2f9eabb5b7d6f4bf1e350387ac01bb5a-188fba6b3fc&sw=632&sh=632",
+     "name": "OVERCOAT",
+     "title": "Brown FF jacquard fabric trench coat",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FF8998AM3UF0TU7_99?wid=632&hei=632&hash=da3b460938e6701bd5669d7825884628-189d5abb3b8&sw=632&sh=632",
+     "id": "20"
+    },
+    {
+     "price": 90,
+     "description": "Skater-style T-shirt with zip pocket on the chest. Crew neck and short sleeves. Made from black cotton jersey. The breast pocket is embellished with a jacquard FF fabric insert and leather trim in the same colours",
+     "category": "Ready to Wear",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FY1257APM4F0QA1_01?wid=618&hei=618&hash=36c8837ca4e8b6130316cc0c1e22122e-188fba53a1d&sw=618&sh=618",
+     "name": "T-SHIRT",
+     "title": "Black jersey T-shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FY1257APM4F0QA1_99?wid=618&hei=618&hash=e71cee2b19f9d30d47206df186dd2702-1894dfd5eaf&sw=618&sh=618",
+     "id": "21"
+    },
+    {
+     "price": 34,
+     "description": "Spacious, structured backpack. The design features a metal rivet with an engraved FF logo that joins the shoulder straps and allows it to be worn as a one-shoulder style. Made of black Fendi Shadow leather with a striped texture FF motif. Embellished with a smooth tone-on-tone leather diagonal insert on the front zip pocket",
+     "category": "category 22",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7VZ076APDOF0GXN_01?wid=618&hei=618&hash=5cc0bedfdee471783aac10cbd1cf57a4-188fbb6211a&sw=618&sh=618",
+     "name": "FENDI CHIODO SHADOW DIAGONAL",
+     "title": "Black leather backpack",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7VZ076APDOF0GXN_99?wid=618&hei=618&hash=b4851c5d8155ec7eeec00beab39e1c77-1894e031145&sw=618&sh=618",
+     "id": "22"
+    },
+    {
+     "price": 67,
+     "description": "Slip-on sneakers with elasticated laces, side zip and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of white leather with FF jacquard fabric details. Embellished with a Lycra® tongue with FF motif",
+     "category": "category 23",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1HGR_01?wid=618&hei=618&hash=0efa00ed959d7621d6d02ce86c7f390b-186cc7919f0&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "White leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1HGR_05?wid=618&hei=618&hash=c5314ad1242167152ce9c298c758af31-18948e0a1b3&sw=618&sh=618",
+     "id": "23"
+    },
+    {
+     "price": 72,
+     "description": "Short-sleeved crew-neck oversized T-shirt. Made with black cotton piqué. Decorated with tone on tone flocked FF motif printed all over",
+     "category": "category 24",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FY0936A7D5F0ABB_01?wid=618&hei=618&hash=75b636c994f2ae712b4af4bc9e68c642-17e2079d3e5&sw=618&sh=618",
+     "name": "T-SHIRT",
+     "title": "T-shirt in black piqué",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FY0936A7D5F0ABB_99?wid=618&hei=618&hash=7207d031e12402d231e1065504ac3c4e-18851aab4d9&sw=618&sh=618",
+     "id": "24"
+    },
+    {
+     "price": 67,
+     "description": "Bermuda trousers with side pockets and elasticated drawstring waist. Made of black cotton piqué. Decorated with tone on tone flocked FF motif printed all over",
+     "category": "category 25",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FB0689A7D5F0ABB_01?wid=618&hei=618&hash=d83cf85b89128af14bad31cc161c5f5e-17e962b7a89&sw=618&sh=618",
+     "name": "BERMUDAS",
+     "title": "Black piqué trousers",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FB0689A7D5F0ABB_99?wid=618&hei=618&hash=b2bb8380aa9e417c70b73324226c80f1-1884e7e1da0&sw=618&sh=618",
+     "id": "25"
+    },
+    {
+     "price": 49,
+     "description": "Ring with all-over FF motif made of palladium-finish metal. Embellished by an F decorated with white crystals",
+     "category": "category 26",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AJ733A44GF035M_01?wid=618&hei=618&hash=d3ed06c51441515025d066ebee1b19b6-188fbaec622&sw=618&sh=618",
+     "name": "FENDI FIVE RING",
+     "title": "Silver-coloured metal ring",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AJ733A44GF035M_99?wid=618&hei=618&hash=776c1be4598260d596b8b2dacd6433a5-1894e05cf11&sw=618&sh=618",
+     "id": "26"
+    },
+    {
+     "price": 37,
+     "description": "Rectangular scarf made of a wool and silk blend with all-over grey and beige macro FF motif. Finished with fringes at the hem.",
+     "category": "category 27",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FXS424A3Q1F0QB8_01?wid=618&hei=618&hash=e611db6e1058201bf116fc15c5ecbe0e-1841db4ebf8&sw=618&sh=618",
+     "name": "SCARF",
+     "title": "Beige wool and silk scarf",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FXS424A3Q1F0QB8_99?wid=618&hei=618&hash=fd46159ab273947dd371e587361d38a5-18421d86d5a&sw=618&sh=618",
+     "id": "27"
+    },
+    {
+     "price": 67,
+     "description": "Soft Trunk Baguette bag made of silver Fendi Shadow leather with a striped texture FF motif. Flap with magnetic FF clasp. Embellished with tone on tone leather",
+     "category": "category 28",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7VA565AP1LF0MK5_01?wid=618&hei=618&hash=9db2d42a935ca4048b495b1f723d93b9-188fbb27f68&sw=618&sh=618",
+     "name": "SOFT TRUNK BAGUETTE",
+     "title": "Silver laminated leather bag",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7VA565AP1LF0MK5_99?wid=618&hei=618&hash=a8ca637447c68c0af07d1a7260baa760-1894e03fc73&sw=618&sh=618",
+     "id": "28"
+    },
+    {
+     "price": 23,
+     "description": "Shirt with Italian-style collar and short sleeves. Concealed button fastening. Made of blue cotton with a micro all-over Fendi Shadow motif print",
+     "category": "category 29",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FS0795APQHF0QB0_01?wid=618&hei=618&hash=eead1ce93d35f81313e74d184551bf8a-188fbabd4b1&sw=618&sh=618",
+     "name": "SHIRT",
+     "title": "Blue cotton shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FS0795APQHF0QB0_99?wid=618&hei=618&hash=2de01eb119774044bc04048c2c0ceba5-1894dfd5eb6&sw=618&sh=618",
+     "id": "29"
+    },
+    {
+     "price": 85,
+     "description": "Swim shorts with elasticated waistband and drawstring. Made of blue nylon with a micro all-over printed Fendi Shadow motif",
+     "category": "category 30",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FXB077APXHF0V6W_01?wid=618&hei=618&hash=86d1ad32f7cc93d2f31714132e8a2928-188fba45442&sw=618&sh=618",
+     "name": "SWIM SHORTS",
+     "title": "Blue nylon shorts",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FXB077APXHF0V6W_99?wid=618&hei=618&hash=d4766997ab9b242435bf556e506fb398-1894e02f877&sw=618&sh=618",
+     "id": "30"
+    },
+    {
+     "price": 54,
+     "description": "Oversized shirt with Italian-style collar and short sleeves. Concealed button fastening. Made of silk with FF motif printed all over in brown and tobacco",
+     "category": "category 31",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FS0795AKEEF1440_01?wid=618&hei=618&hash=88a8872a84af1a5e698073c5f14158a5-180b556560f&sw=618&sh=618",
+     "name": "SHIRT",
+     "title": "Brown silk shirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FS0795AKEEF1440_99?wid=618&hei=618&hash=5248aa5d96bd41089c8af1d07556b83c-1888c55e338&sw=618&sh=618",
+     "id": "31"
+    },
+    {
+     "price": 9,
+     "description": "Swim shorts with elasticated waistband and drawstring. Made of fabric with brown FF motif.",
+     "category": "category 32",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FXB077A79FF13IZ_01?wid=618&hei=618&hash=9e66f68fed4aa9075efd1f49c07baae0-18225ff0818&sw=618&sh=618",
+     "name": "SWIM SHORTS",
+     "title": "Brown fabric shorts",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FXB077A79FF13IZ_99?wid=618&hei=618&hash=0129547ff5404b8fe9da2abb6de6dcca-1888f7943ae&sw=618&sh=618",
+     "id": "32"
+    },
+    {
+     "price": 52,
+     "description": "Wide band ring. Made of palladium-finish metal with striped-texture Fendi Shadow motif.",
+     "category": "category 33",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AJ762B08F0TH0_01?wid=618&hei=618&hash=eff341a017fee421faf88c217d4b11c5-188fbaec596&sw=618&sh=618",
+     "name": "FENDI SHADOW RING",
+     "title": "Silver-coloured metal ring",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AJ762B08F0TH0_99?wid=618&hei=618&hash=4aa938a8bd33842002320328ed8dd20d-1894e06c38f&sw=618&sh=618",
+     "id": "33"
+    },
+    {
+     "price": 63,
+     "description": "Chain-mesh bracelet and FF cube detail. Made of palladium-finish metal with striped-texture Fendi Shadow motif",
+     "category": "category 34",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AJ760B08F0TH0_01?wid=618&hei=618&hash=ddd460ba10d930e7b1d1537aa3d23dbb-188fba1baec&sw=618&sh=618",
+     "name": "FENDI SHADOW BRACELET",
+     "title": "Silver-colour metal bracelet",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AJ760B08F0TH0_99?wid=618&hei=618&hash=eb5a7599aa3bdfe56dcf6caf34acd50a-1894e02f8a3&sw=618&sh=618",
+     "id": "34"
+    },
+    {
+     "price": 18,
+     "description": "Raglan sleeved sweatshirt with crew neck. Made with beige cotton jersey. Customised with diagonal FF motif in black. White contrasting diagonal stripes",
+     "category": "category 35",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FY0944A7A9F13J3_01?wid=618&hei=618&hash=33f04032e486cb209aab5df4d77bbab3-17e1bc814dd&sw=618&sh=618",
+     "name": "SWEATSHIRT",
+     "title": "Beige cotton sweatshirt",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FY0944A7A9F13J3_03?wid=618&hei=618&hash=10ad4e4ac5983e085348db544c152a71-17e1bc8156e&sw=618&sh=618",
+     "id": "35"
+    },
+    {
+     "price": 21,
+     "description": "Go-To single-breasted jacket with shirt collar and patch pockets on the chest. Concealed button fastening. Made of black canvas with all-over jacquard FF motif",
+     "category": "category 36",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FW1141A6WJF0QT6_01?wid=618&hei=618&hash=d462406d2f423cdfff7f70a440ffff3d-188fbabda5d&sw=618&sh=618",
+     "name": "BLOUSON",
+     "title": "Go-To Jacket in black FF canvas",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FW1141A6WJF0QT6_99?wid=618&hei=618&hash=f167d5c05f8c63c7d48ac91080c23dd9-1894e04520d&sw=618&sh=618",
+     "id": "36"
+    },
+    {
+     "price": 9,
+     "description": "Straight-cut 5-pocket trousers. Embellished with branded rivets and buttons. Concealed zip fastening. Made of brown cotton denim with a worn-effect overdyed finish",
+     "category": "category 37",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FLP288APSXF0QD5_01?wid=618&hei=618&hash=0c0405f0b129eb7354932ac616646428-188fbabdb17&sw=618&sh=618",
+     "name": "DENIM",
+     "title": "Brown denim jeans",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FLP288APSXF0QD5_99?wid=618&hei=618&hash=2ecbf0277f30024617febac967fe11d0-1894e073f09&sw=618&sh=618",
+     "id": "37"
+    },
+    {
+     "price": 28,
+     "description": "Round 42 mm case in shiny, satin black PVD-coated stainless steel with oval Fendi O’Lock detail revealing the time. Crown with engraved FF logo. Matte black sapphire glass face with white Fendi logo. Hours, minutes and seconds faces with black background and white and light-grey numbers. Steel mesh bracelet with black PVD coating and folding buckle with engraved Fendi logo.",
+     "category": "category 38",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FOW977A17KF0QA1_01?wid=618&hei=618&hash=6fc1b37d2c49753aee3559c3da00019f-18922d2272d&sw=618&sh=618",
+     "name": "O'LOCK ROUND",
+     "title": "42 mm - Round watch with O’Lock logo",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FOW977A17KF0QA1_99?wid=618&hei=618&hash=f7df53397ed6fb055be2a9b50e6a5d24-1894e03d756&sw=618&sh=618",
+     "id": "38"
+    },
+    {
+     "price": 18,
+     "description": "Oversized jacket with shirt collar and patch pockets on the chest. Unlined. Button fastening. Made of blue denim with an all-over flocked FF motif.",
+     "category": "category 39",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FW0428APSWF0QG0_01?wid=618&hei=618&hash=d10ff90095f6f20e87033e270c816640-188fbabd6b5&sw=618&sh=618",
+     "name": "JACKET",
+     "title": "Blue denim jacket",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FW0428APSWF0QG0_99?wid=618&hei=618&hash=0868a9fe1e75cc285973abb67046e03e-1894e06cfb8&sw=618&sh=618",
+     "id": "39"
+    },
+    {
+     "price": 60,
+     "description": "Straight-cut 5-pocket trousers. Zip and button fastening. Made of blue denim with an all-over flocked FF motif. Worn treatment at the waist and on the pockets. Leather Fendi patch at the back.",
+     "category": "category 40",
+     "image": "https://static.fendi.com/dam/is/image/fendi/FLP302APSWF0QG0_01?wid=618&hei=618&hash=81b18efe11416e3ec9f3004c3f96fdef-189071952df&sw=618&sh=618",
+     "name": "TROUSERS",
+     "title": "Blue denim trousers ",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/FLP302APSWF0QG0_99?wid=618&hei=618&hash=c5bf8f923499d7ba6d3c22d898f5dcf6-1894e0a2a91&sw=618&sh=618",
+     "id": "40"
+    },
+    {
+     "price": 72,
+     "description": "Slip-on sneakers with elasticated laces, side zip and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of a mix of tech fabrics and suede in white. Embellished with Lycra® details. Tongue with FF motif. EVA sole.",
+     "category": "category 41",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1392EKVF0AGX_01?wid=618&hei=618&hash=b1133b90f0f2f96e3716f80c6bcc4828-186cc7856a0&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "White nylon low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1392EKVF0AGX_99?wid=618&hei=618&hash=ef43306fe3a0ce00af23433e96bab95e-18949f98688&sw=618&sh=618",
+     "id": "41"
+    },
+    {
+     "price": 20,
+     "description": "Slip-on sneakers with adjustable elasticated laces, side zip and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of blue nylon with silver FF jacquard motif and blue leather details. Embellished with a LYCRA® tongue with FF motif. 35 mm black rubber running sole with tone on tone diagonal F detail.",
+     "category": "category 42",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1392AHHGF1FHE_01?wid=618&hei=618&hash=ac7d1126afb2748ea2caeb1dbe8dd970-17e1bc44871&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "Blue fabric low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1392AHHGF1FHE_05?wid=618&hei=618&hash=34c464dc83ba2d82fc04fd3663bef0a6-18948df51b4&sw=618&sh=618",
+     "id": "42"
+    },
+    {
+     "price": 37,
+     "description": "Slip-on sneakers with elasticated laces, side zip and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of dark grey leather with FF fabric inserts in black and grey. Embellished with Lycra® details with FF motif. Lightweight white rubber soles with blue diagonal F detail",
+     "category": "category 43",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1MDD_01?wid=618&hei=618&hash=409adbc4c7edefb7c244833d18b3fbb9-188fbae41a3&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "Grey leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1MDD_99?wid=618&hei=618&hash=04a8f15f642262f92f8e8ef5e40efd29-1894dfd5ed7&sw=618&sh=618",
+     "id": "43"
+    },
+    {
+     "price": 17,
+     "description": "Slip-on sneakers with elasticated laces, side zip and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of white leather with FF jacquard fabric details. Embellished with a Lycra® tongue with FF motif. Sole in lightweight white rubber with black diagonal F detail.",
+     "category": "category 44",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1HGR_01?wid=618&hei=618&hash=0efa00ed959d7621d6d02ce86c7f390b-186cc7919f0&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "White leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1392AJZHF1HGR_05?wid=618&hei=618&hash=c5314ad1242167152ce9c298c758af31-18948e0a1b3&sw=618&sh=618",
+     "id": "44"
+    },
+    {
+     "price": 3,
+     "description": "Fendi Match compact design sneakers with vintage label on tongue. Branded with FF pattern sewn on the side and embossed Fendi lettering on the sole. Made of white suede and leather. Embellished with tone on tone terry collar and laces. Covered rubber cupsole with beige bumper.",
+     "category": "category 45",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1493AHH2F1FHS_01?wid=618&hei=618&hash=3351003247d3963afbffce8ed6c2b769-180417b72b8&sw=618&sh=618",
+     "name": "FENDI MATCH",
+     "title": "White suede low tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1493AHH2F1FHS_04?wid=618&hei=618&hash=6ca7273a2e9825e636cbfc834120a8d2-180417b6318&sw=618&sh=618",
+     "id": "45"
+    },
+    {
+     "price": 24,
+     "description": "Fendi Match compact design sneakers with vintage label on tongue. Branded with FF pattern sewn on the side and embossed Fendi lettering on the sole. Made of black suede with white leather details. Embellished with black terry collar and laces. Covered rubber cupsole with brown bumper. The style includes a second pair of white terry laces.",
+     "category": "category 46",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1493AHH2F1FZB_01?wid=618&hei=618&hash=639c6e2bb3ec63e696cc47dcb29771fc-17e1bc18100&sw=618&sh=618",
+     "name": "FENDI MATCH",
+     "title": "Low tops in black suede",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1493AHH2F1FZB_99?wid=618&hei=618&hash=e5209d4b5723e0bfbd8d729894856931-18949fb72b8&sw=618&sh=618",
+     "id": "46"
+    },
+    {
+     "price": 3,
+     "description": "Fendi Match lace-up sneakers. Made of dark grey suede with white and grey leather details. Rubber sole with Fendi lettering on the side.",
+     "category": "category 47",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1493AI1NF1IJF_01?wid=618&hei=618&hash=ce620f6aedac7641d2a7387de8d485f3-18613428908&sw=618&sh=618",
+     "name": "FENDI MATCH",
+     "title": "Grey suede low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1493AI1NF1IJF_99?wid=618&hei=618&hash=3684e40cbaf0b488e6810ba9fd317ed6-184325798de&sw=618&sh=618",
+     "id": "47"
+    },
+    {
+     "price": 32,
+     "description": "Lace-up sneakers. Made of white leather. Light grey suede details. Embellished with micro perforations at the sides and ribbon with FF embroidery. Rubber sole with Fendi Roma lettering at the back.",
+     "category": "category 48",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDQ_01?wid=618&hei=618&hash=8236cfb8b64539e7f898eacde2faf575-18930ded040&sw=618&sh=618",
+     "name": "FENDI STEP",
+     "title": "White leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDQ_99?wid=618&hei=618&hash=e60ba37bf4b3076178b618f7b3343541-1894e056b71&sw=618&sh=618",
+     "id": "48"
+    },
+    {
+     "price": 23,
+     "description": "Lace-up sneakers. Made of beige leather. Brown suede details. Embellished with micro perforations at the sides and ribbon with FF embroidery. Rubber sole with Fendi Roma lettering at the back.",
+     "category": "category 49",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDS_01?wid=618&hei=618&hash=2a4d5654750a8e4d68da165b34b0c2c8-18925faaf9a&sw=618&sh=618",
+     "name": "FENDI STEP",
+     "title": "Beige leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDS_99?wid=618&hei=618&hash=0794e2de32e038f4365557ab87aae6e0-1894e066322&sw=618&sh=618",
+     "id": "49"
+    },
+    {
+     "price": 92,
+     "description": "Lace-up sneakers. Made of black leather. Grey suede details. Embellished with micro perforations at the sides and ribbon with FF embroidery. Rubber sole with Fendi Roma lettering at the back",
+     "category": "category 50",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDR_01?wid=618&hei=618&hash=e65e68783c71b739f276ba63cc46cc44-188fbae44e3&sw=618&sh=618",
+     "name": "FENDI STEP",
+     "title": "Black leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDR_99?wid=618&hei=618&hash=46d0918fd55a93bd33a7deea0c2b0114-1894e063590&sw=618&sh=618",
+     "id": "50"
+    },
+    {
+     "price": 39,
+     "description": "Lace-up sneakers. Made of grey leather. Suede details in blue and lilac. Embellished with micro perforations at the sides and ribbon with FF embroidery. Rubber sole with Fendi Roma lettering at the back.",
+     "category": "category 51",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDU_01?wid=618&hei=618&hash=2e135e4938a8845244b374e38db3400c-18925fab045&sw=618&sh=618",
+     "name": "FENDI STEP",
+     "title": "Grey leather low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1631A1GVF1MDU_99?wid=618&hei=618&hash=5dfc4a2c114da6ad1cee12051187a6b5-1894e0ad915&sw=618&sh=618",
+     "id": "51"
+    },
+    {
+     "price": 7,
+     "description": "Loafers with hand-stitched shoe apron and upper decorated with FF Baguette motif. Made of black leather. Rubber sole with F detail engraved on the side.",
+     "category": "category 52",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7D161669FF0QA1_01?wid=618&hei=618&hash=bdbfcdb888f97357f469bc3495ac283f-1891c4f0500&sw=618&sh=618",
+     "name": "FENDI FRAME LOAFERS",
+     "title": "Black leather loafers",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7D161669FF0QA1_99?wid=618&hei=618&hash=870a8e08d7efc1e5bca1d27cc159cce3-1894e0490e9&sw=618&sh=618",
+     "id": "52"
+    },
+    {
+     "price": 5,
+     "description": "Lace-ups with hand-stitched apron and lace fastening. Made of black leather. Rubber sole with F detail engraved on the side.",
+     "category": "category 53",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7L161769FF0QA1_01?wid=618&hei=618&hash=8e126c5a1e71185ccc88b26d7dd095bb-188fbae4819&sw=618&sh=618",
+     "name": "FENDI FRAME LACE-UPS",
+     "title": "Black leather lace-ups",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7L161769FF0QA1_99?wid=618&hei=618&hash=36d1b389a868367cdd08627830d7c78c-1894e03d761&sw=618&sh=618",
+     "id": "53"
+    },
+    {
+     "price": 16,
+     "description": "Lace-ups with hand-stitched apron and lace fastening. Made of black leather. FF jacquard fabric detail in tobacco and black. Rubber sole with F detail engraved on the side.",
+     "category": "category 54",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7L1617AKYAF0R7R_01?wid=618&hei=618&hash=e9d4228c3f27d3de3bd47164a5873f84-188fbae4444&sw=618&sh=618",
+     "name": "FENDI FRAME LACE-UPS",
+     "title": "Black leather lace-ups",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7L1617AKYAF0R7R_99?wid=618&hei=618&hash=79f5a4c1a6dc7cc2b106593a30ffb285-1894e0662f2&sw=618&sh=618",
+     "id": "54"
+    },
+    {
+     "price": 55,
+     "description": "Lace-ups with hand-stitched apron and lace fastening. Made of brown leather with a special hand-buffed finish. Rubber sole with F detail engraved on the side.",
+     "category": "category 55",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7L1617MYJF0R7V_01?wid=618&hei=618&hash=fd5262871ebeb6751fe443950862c32b-188fbae4103&sw=618&sh=618",
+     "name": "FENDI FRAME LACE-UPS",
+     "title": "Brown leather lace ups",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7L1617MYJF0R7V_99?wid=618&hei=618&hash=9f0971516ba1f1118fd633cbc784d2de-1894e081c48&sw=618&sh=618",
+     "id": "55"
+    },
+    {
+     "price": 76,
+     "description": "Loafers with FF Squared motif. Made of beige leather. Leather soles. Palladium-finish metalware.",
+     "category": "category 56",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7D1601NA7F1GLJ_01?wid=618&hei=618&hash=d30843694fc16d8572b6651856b73d7d-188fba33f37&sw=618&sh=618",
+     "name": "FF SQUARED LOAFERS",
+     "title": "Beige leather loafers",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7D1601NA7F1GLJ_99?wid=618&hei=618&hash=155983d9a5b8be2510e02359aa2030bd-1894e0aa4dc&sw=618&sh=618",
+     "id": "56"
+    },
+    {
+     "price": 20,
+     "description": "Fendi Match lace-up sneakers. Made of white leather with black suede details. Rubber sole with Fendi lettering on the side.",
+     "category": "category 57",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1569AHH2F1FZB_01?wid=618&hei=618&hash=ed5876b1bea10220cbc6a1cefe472460-183aa342b5a&sw=618&sh=618",
+     "name": "FENDI MATCH",
+     "title": "Black leather high-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1569AHH2F1FZB_04?wid=618&hei=618&hash=bd8b68b416842c60a578ee2d58753661-183aa342b49&sw=618&sh=618",
+     "id": "57"
+    },
+    {
+     "price": 75,
+     "description": "Slip-on sneakers with adjustable elasticated laces, FF stopper and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of light beige nylon with injected coating. Lycra® details with FF motif. Lightweight white rubber soles with beige diagonal F detail.",
+     "category": "category 58",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI7_01?wid=618&hei=618&hash=81203a7437354fdb3919254b5b30d8b2-185eb4f074d&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "Beige nylon low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI7_04?wid=618&hei=618&hash=48e83bf2453d04247d9079e67353d690-185eb733e41&sw=618&sh=618",
+     "id": "58"
+    },
+    {
+     "price": 30,
+     "description": "Slip-on sneakers with adjustable elasticated laces, FF stopper and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of light blue nylon with injected coating. Lycra® details with FF motif. Lightweight white rubber soles with tone on tone diagonal F detail.",
+     "category": "category 59",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI8_01?wid=618&hei=618&hash=771d141263083c6397e423c40bfeca8c-185eb4f0f80&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "Light blue nylon low tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI8_99?wid=618&hei=618&hash=cb866dbfab95140a691c1ff5ef264701-185eb4f0fba&sw=618&sh=618",
+     "id": "59"
+    },
+    {
+     "price": 21,
+     "description": "Slip-on sneakers with adjustable elasticated laces, FF stopper and corrugated sole with engraved F. Fendi Flow lettering embossed on the heels. Made of grey nylon with injected coating. Lycra® details with FF motif. Lightweight white rubber soles with tone-on-tone diagonal F detail.",
+     "category": "category 60",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI5_01?wid=618&hei=618&hash=65df3d39d603aa9d8888e29cbf0d7404-187232b8b48&sw=618&sh=618",
+     "name": "FENDI FLOW",
+     "title": "Grey nylon low-tops",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7E1583AM5LF1JI5_04?wid=618&hei=618&hash=5ce5c9a268833244415e4004c513f952-187232abc40&sw=618&sh=618",
+     "id": "60"
+    },
+    {
+     "price": 30,
+     "description": "Flask made in collaboration with 24Bottles®. The flask, with a branded FF stopper, is made of stainless steel and is perfect for keeping beverages cold for 24 hours or hot for 12 hours. The flask holder is embellished with hand-woven beige raffia and a black FF motif and includes a clip allowing it to be attached to larger bags. Complete with adjustable and removable black leather shoulder strap for various different uses.",
+     "category": "category 61",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AR972AKB1F1E1C_01?wid=618&hei=618&hash=98ce14857ef5b10bb5f4fa0e770dc43e-18113e76002&sw=618&sh=618",
+     "name": "FLASK HOLDER",
+     "title": "Beige raffia flask holder",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AR972AKB1F1E1C_03?wid=618&hei=618&hash=2d55d09e2841d1dfca4d71d0377958ec-18113e761a4&sw=618&sh=618",
+     "id": "61"
+    },
+    {
+     "price": 58,
+     "description": "Insulated flask holder with handle, clip and double-zip fastening. Made of hand-woven beige raffia with a black FF motif. Black leather details. It can also be worn cross-body thanks to the adjustable cotton shoulder strap. Gold-finish metalware.",
+     "category": "category 62",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AS114AJF2F1HRN_01?wid=618&hei=618&hash=1a40ad0600c62eb319c4cb4957e022cd-181696e84b4&sw=618&sh=618",
+     "name": "INSULATED FLASK HOLDER",
+     "title": "Beige raffia flask holder",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AS114AJF2F1HRN_04?wid=618&hei=618&hash=6b75d9029a81767475e959f6c5aa27f2-181696e7dea&sw=618&sh=618",
+     "id": "62"
+    },
+    {
+     "price": 33,
+     "description": "Board games are an inspired inclusion in the new line of lifestyle accessories, to recreate the relaxed and comfortable atmosphere of a family holiday. In a perfect combination of fun and style, all the games are designed to be easily transportable and stored in full view, as real design objects. The wooden box inlaid with Pequin striped motif is an iconic expression of the fashion house’s DNA. Embellished with a plexiglass lid and matching colour nappa leather handle.",
+     "category": "category 63",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AL000AM4UF1K65_01?wid=618&hei=618&hash=23e7c96dfecc3f5b0789800bc7e04f3a-186134c1e28&sw=618&sh=618",
+     "name": "LARGE FENDI ROMA BACKGAMMON SET",
+     "title": "Pequin wood Backgammon Box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AL000AM4UF1K65_03?wid=618&hei=618&hash=f38d80e4ad9a26ef274d2955de1ab046-186134b0cb8&sw=618&sh=618",
+     "id": "63"
+    },
+    {
+     "price": 91,
+     "description": "Board games are an inspired inclusion in the new line of lifestyle accessories, to recreate the relaxed and comfortable atmosphere of a family holiday. In a perfect combination of fun and style, all the games are designed to be easily transportable and stored in full view, as real design objects. The wooden box inlaid with Pequin striped motif is an iconic expression of the fashion house’s DNA. Embellished with a plexiglass lid and matching colour nappa leather handle.",
+     "category": "category 64",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AL004AM4VF1K65_01?wid=618&hei=618&hash=08ad540ee67ef53570ab59ef6245b449-186134b0cb8&sw=618&sh=618",
+     "name": "FENDI ROMA NOUGHTS AND CROSSES SET",
+     "title": "Pequin wooden Noughts and Crosses Box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AL004AM4VF1K65_04?wid=618&hei=618&hash=8735ee72b391a2012794d67586c224cb-1861349a558&sw=618&sh=618",
+     "id": "64"
+    },
+    {
+     "price": 95,
+     "description": "description 65Board games are an inspired inclusion in the new line of lifestyle accessories, to recreate the relaxed and comfortable atmosphere of a family holiday. In a perfect combination of fun and style, all the games are designed to be easily transportable and stored in full view, as real design objects. The wooden box covered in two-tone nappa leather with embossed Fendi logo is an iconic expression of the fashion house’s DNA. The cards are decorated with the macro FF in contrasting colours.",
+     "category": "category 65",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AL003AM4TF1K64_01?wid=618&hei=618&hash=0bcd9ba7d01ff435051cd9c4acf02959-186134d00b8&sw=618&sh=618",
+     "name": "FENDI ROMA PLAYING CARDS",
+     "title": "Two-tone nappa leather playing cards box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AL003AM4TF1K64_03?wid=618&hei=618&hash=f4dde5196037c7e06e519e2df93beafe-1847b7cb264&sw=618&sh=618",
+     "id": "65"
+    },
+    {
+     "price": 52,
+     "description": "Board games are an inspired inclusion in the new line of lifestyle accessories, to recreate the relaxed and comfortable atmosphere of a family holiday. In a perfect combination of fun and style, all the games are designed to be easily transportable and stored in full view, as real design objects. The wooden box covered in two-tone nappa leather is an iconic expression of the fashion house’s DNA.",
+     "category": "category 66",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AL001AM4TF1K63_01?wid=618&hei=618&hash=2c2b980344e18a027fe09fb09ec24378-186134c1270&sw=618&sh=618",
+     "name": "SMALL FENDI ROMA BACKGAMMON SET",
+     "title": "Two-tone nappa leather Backgammon Box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AL001AM4TF1K63_03?wid=618&hei=618&hash=fd60f8ddaf8a7ef9b3e38a31fc726359-186134ce948&sw=618&sh=618",
+     "id": "66"
+    },
+    {
+     "price": 39,
+     "description": "Mini oval box made of natural wood covered in soft, colour block effect yellow nappa leather. Inspired by the O’Lock jewel, the design combines beauty with functionality thanks to the plexiglass lid with a macro, gold-coloured metal Fendi O’Lock logo and tone on tone nappa leather handles. A versatile and elegant object that adds a unique touch to the home.",
+     "category": "category 67",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0945RZF1JLW_01?wid=618&hei=618&hash=82fef396ce2f19f711e93fb9865a3e6e-1847a6a56d4&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL BOX",
+     "title": "Wood and multicolour nappa leather box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0945RZF1JLW_03?wid=618&hei=618&hash=ef68316a42bb6fef53e95a51af76c367-1847a6a6674&sw=618&sh=618",
+     "id": "67"
+    },
+    {
+     "price": 84,
+     "description": "Mini oval box made of natural wood covered in soft, colour block effect light green nappa leather. Inspired by the O’Lock jewel, the design combines beauty with functionality thanks to the plexiglass lid with a macro, gold-coloured metal Fendi O’Lock logo and tone on tone nappa leather handles. A versatile and elegant object that adds a unique touch to the home.",
+     "category": "category 68",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0945RZF1JLV_01?wid=618&hei=618&hash=b30089d7cb951a201b0368aab3dd9eb6-1847a6a5dd0&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL BOX",
+     "title": "Wood and multicolour nappa leather box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0945RZF1JLV_03?wid=618&hei=618&hash=216efbc2d1ecd6599575e63dcdbc7b77-1847a6a6d74&sw=618&sh=618",
+     "id": "68"
+    },
+    {
+     "price": 87,
+     "description": "Mini oval box made entirely of inlaid wood with Pequin stripe motif. Inspired by the O’Lock jewel, the design combines beauty with functionality thanks to the plexiglass lid with a macro, gold-coloured metal Fendi O’Lock logo and tone on tone nappa leather handles. A versatile and elegant object that adds a unique touch to the home.",
+     "category": "category 69",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC094AM4RF1JLX_01?wid=618&hei=618&hash=7914c2c80c3bcc11c81eb83e84dba99d-1847a693e49&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL BOX",
+     "title": "Pequin wood box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC094AM4RF1JLX_03?wid=618&hei=618&hash=af0d25ffbe22bc5d678f37edd860f49b-1847a69bace&sw=618&sh=618",
+     "id": "69"
+    },
+    {
+     "price": 64,
+     "description": "Mini oval box made entirely of inlaid wood with Pequin stripe motif. Inspired by the O’Lock jewel, the design combines beauty with functionality thanks to the plexiglass lid with a macro, gold-coloured metal Fendi O’Lock logo and tone on tone nappa leather handles. A versatile and elegant object that adds a unique touch to the home.",
+     "category": "category 70",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1JLN_01?wid=618&hei=618&hash=dde7fbd1784eaf5a034241f92ce6ec61-186134cfcd0&sw=618&sh=618",
+     "name": "FENDI O’LOCK POCKET EMPTIER",
+     "title": "Light green porcelain pocket emptier",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1JLN_03?wid=618&hei=618&hash=70e908c4821baed85b70ba0a4f362d70-1861349f760&sw=618&sh=618",
+     "id": "70"
+    },
+    {
+     "price": 33,
+     "description": "Mini oval box made entirely of inlaid wood with Pequin stripe motif. Inspired by the O’Lock jewel, the design combines beauty with functionality thanks to the plexiglass lid with a macro, gold-coloured metal Fendi O’Lock logo and tone on tone nappa leather handles. A versatile and elegant object that adds a unique touch to the home.",
+     "category": "category 71",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1JLM_01?wid=618&hei=618&hash=39e9a020e7f6d1fcdeebf0bfa39c4325-1847a697930&sw=618&sh=618",
+     "name": "FENDI O’LOCK POCKET EMPTIER",
+     "title": "Light pink porcelain pocket emptier",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1JLM_03?wid=618&hei=618&hash=c86b083e297e0565c5d43476013ec33f-1847a69c1ac&sw=618&sh=618",
+     "id": "71"
+    },
+    {
+     "price": 6,
+     "description": "Yellow porcelain pocket emptier decorated with Fendi O’Lock Chain motif and delicate gold-coloured accents. In her conception of the new Fendi Casa universe, Silvia Venturini Fendi redesigns the collection accessories drawing inspiration from the fashion house’s DNA. Italian design is expressed in the choice of quality materials, functionality and aesthetics in a harmonious balance of style and timeless elegance",
+     "category": "category 72",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1E8K_01?wid=618&hei=618&hash=962d56678599745b9a8000d67418c45b-1847a695435&sw=618&sh=618",
+     "name": "FENDI O’LOCK POCKET EMPTIER",
+     "title": "Yellow porcelain pocket emptier",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC090AM4MF1E8K_03?wid=618&hei=618&hash=34594e4cb12d9d67b12332ade97ae3a8-1847a699ea6&sw=618&sh=618",
+     "id": "72"
+    },
+    {
+     "price": 8,
+     "description": "Made of galvanised metal, the Fendi Casa candle holder set embodies the essence of refined and timeless elegance. The iconic Fendi O’Lock logo is the unifying element that runs through a range of accessories perfectly in tune with the style of the fashion brand. The palladium-coloured finish adds a unique and sophisticated touch, confirming the careful attention to detail and refinement of the design.",
+     "category": "category 73",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC087B08F0TH0_01?wid=618&hei=618&hash=7951eb6ffb155c8da4f03adf60282fdd-186134aed78&sw=618&sh=618",
+     "name": "FENDI O’LOCK CANDLE HOLDER SET",
+     "title": "Palladium-coloured metal candle holder",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC087B08F0TH0_02?wid=618&hei=618&hash=1c0b364fdb7d391b2767601f1bfd2ce3-186134c0e88&sw=618&sh=618",
+     "id": "73"
+    },
+    {
+     "price": 99,
+     "description": "Made of galvanised metal, the Fendi Casa candle holder set embodies the essence of refined and timeless elegance. ",
+     "category": "category 74",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC087B08F0CFK_01?wid=618&hei=618&hash=91c393c0695f1984154ec6878628ae4a-186134ae5a8&sw=618&sh=6184",
+     "name": "FENDI O’LOCK CANDLE HOLDER SET",
+     "title": "Gold-coloured metal candle holder",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC087B08F0CFK_02?wid=618&hei=618&hash=85a8a5ce44edc75b46597f9b2df9ded7-186134af160&sw=618&sh=618",
+     "id": "74"
+    },
+    {
+     "price": 25,
+     "description": "Made of galvanised metal, the Fendi Casa candle holder set embodies the essence of refined and timeless elegance.",
+     "category": "category 75",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC066B08F0CFK_01?wid=618&hei=618&hash=34c6145875229d8c1c6bb5b6d7405b95-1847a6ea553&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL POCKET EMPTIER",
+     "title": "Gold-coloured metal tray",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC066B08F0CFK_03?wid=618&hei=618&hash=c051e728cef630f2db93f3955ba6e55c-1847a6e96f7&sw=618&sh=618",
+     "id": "75"
+    },
+    {
+     "price": 29,
+     "description": "Small oval pocket emptier made of soft, two-tone, colour block effect nappa leather in beige and light green. The Fendi O’Lock gold-coloured metal detail adds a distinctive touch to the overall classic elegance. A union of craftsmanship and design, the Fendi Casa accessories line offers everyday objects redesigned with a refined aesthetic and iconic accents of the fashion house.",
+     "category": "category 76",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0055RZF1HQ5_01?wid=618&hei=618&hash=042ced523b9faf48d496b70bee1c86a8-183aa52d98f&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL POCKET EMPTIER",
+     "title": "Multicolour nappa leather pocket emptier",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0055RZF1HQ5_03?wid=618&hei=618&hash=ee8f198ee4ecb3cf5b03731161963870-183aa52c80a&sw=618&sh=618",
+     "id": "76"
+    },
+    {
+     "price": 93,
+     "description": "Small oval pocket emptier made of soft, two-tone, colour block effect nappa leather in beige and light gold",
+     "category": "category 77",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0055RZF1JLV_01?wid=618&hei=618&hash=362decf526731f0ab3dc183e8906529b-184787303d5&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL POCKET EMPTIER",
+     "title": "Multicolour nappa leather pocket emptier",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0055RZF1JLV_03?wid=618&hei=618&hash=239731bf87c455cfc43636be778be6e3-1847a6ba45d&sw=618&sh=618",
+     "id": "77"
+    },
+    {
+     "price": 25,
+     "description": "Round tray covered in soft, two-tone, colour block effect nappa leather in beige and light green. Its characteristic round shape is enhanced with Fendi O’Lock metal handles, transforming the tray into a true design object. Its rounded form combined with natural materials expresses beauty and functionality in a harmonious balance of style and timeless elegance.",
+     "category": "category 78",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0025RZF1JLV_01?wid=618&hei=618&hash=3910593868328464f92657bbd7b761f6-1847a73bcb2&sw=618&sh=618",
+     "name": "FENDI O’LOCK ROUND TRAY",
+     "title": "Multicolour nappa leather tray",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0025RZF1JLV_03?wid=618&hei=618&hash=f0573b2e7b2600889169fc49109f4bef-1847a73ae94&sw=618&sh=618",
+     "id": "78"
+    },
+    {
+     "price": 47,
+     "description": "Round tray covered in soft, two-tone, colour block effect nappa leather in beige and cream. Its characteristic round shape is enhanced with Fendi O’Lock metal handles, transforming the tray into a true design object. Its rounded form combined with natural materials expresses beauty and functionality in a harmonious balance of style and timeless elegance.",
+     "category": "category 79",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC0025RZF1HQ7_01?wid=618&hei=618&hash=bccd523218634c9c20940fcd285be282-1847a736a40&sw=618&sh=618",
+     "name": "FENDI O’LOCK ROUND TRAY",
+     "title": "Multicolour nappa leather tray",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC0025RZF1HQ7_03?wid=618&hei=618&hash=105d10b5a0a50e93b69cc5c3ae95db12-1847a736368&sw=618&sh=618",
+     "id": "79"
+    },
+    {
+     "price": 45,
+     "description": "Round tray covered in soft, two-tone, colour block effect nappa leather in beige and cream.",
+     "category": "category 80",
+     "image": "https://static.fendi.com/dam/is/image/fendi/7AC001AM4RF1JLX_01?wid=618&hei=618&hash=c8989d7f70dddf7f0569304de3da5674-1847a69b405&sw=618&sh=618",
+     "name": "FENDI O’LOCK OVAL BOX",
+     "title": "Pequin wood box",
+     "image2": "https://static.fendi.com/dam/is/image/fendi/7AC001AM4RF1JLX_03?wid=618&hei=618&hash=df687c36205aca9e2a73caefb17b78dd-1847a69455c&sw=618&sh=618",
+     "id": "80"
+    }
+   ]

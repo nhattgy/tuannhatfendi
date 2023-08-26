@@ -8,7 +8,7 @@
 .image-section {
   width: 100%;
   flex: 3; /* Chiếm 3 phần trên 4 phần tổng */
-  background-image: url("https://static.fendi.com/on/demandware.static/-/Library-Sites-fendiSharedLibrary/default/dw36a348e5/images/login-desktop.jpg?hash=f1728b86b757d3375a60db539c6683c9-185bed16e73&wid=1466&hei=1466&sw=1466&sh=1466");
+  background-image: url("https:\\static.fendi.com\\on\\demandware.static\\-/Library-Sites-fendiSharedLibrary/default/dw36a348e5/images/login-desktop.jpg?hash=f1728b86b757d3375a60db539c6683c9-185bed16e73&wid=1466&hei=1466&sw=1466&sh=1466"); /* Đường dẫn hình ảnh */
   background-size: cover;
 }
 .signup-page {
