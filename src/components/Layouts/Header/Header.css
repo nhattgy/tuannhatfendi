@@ -114,7 +114,7 @@
 
 .nav__icon svg {
   color: #8d7f7f;
-  margin: 0 10px; /* Tạo khoảng cách giữa các biểu tượng */
+  margin: 0; /* Tạo khoảng cách giữa các biểu tượng */
   transition: transform 0.3s ease-in-out; /* Hiệu ứng mượt mà */
 }
 
@@ -214,6 +214,7 @@
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin-top: 17px;
+  padding: 0;
 }
 
 .navbar__ulmobiletablet.open {
@@ -282,5 +283,18 @@
 
     position: absolute;
     left: 0;
+  }
+}
+@media screen and (max-width: 740px) {
+  .fvr_icon {
+    margin: 0;
+    paddin: 0;
+    position: relative;
+    top: 14px;
+  }
+  .favorite-count {
+    margin-left: 5px;
+    transform: translateY(-45%);
+    margin-left: 15px;
   }
 }

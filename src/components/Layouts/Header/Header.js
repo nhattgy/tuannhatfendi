@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import Logo from "../../../asset/img.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
@@ -15,6 +15,7 @@ function Header() {
   const favoriteProducts = useSelector((state) => state.favorites);
   const [favoriteCount, setFavoriteCount] = useState(0);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isInitialLoad, setIsInitialLoad] = useState(true);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -26,7 +27,7 @@ function Header() {
       setIsScrolled(false);
     }
   };
-  const dispatch = useDispatch();
+
   useEffect(() => {
     const favoriteProductIdsJSON = localStorage.getItem("favoriteProductIds");
     const favoriteProductIds = JSON.parse(favoriteProductIdsJSON) || [];
@@ -34,11 +35,12 @@ function Header() {
 
     // Kiểm tra xem người dùng đã đăng nhập hay chưa
     // Thay thế bằng phần kiểm tra trạng thái đăng nhập thật của bạn
-    const userIsLoggedIn = true; // Đặt giá trị trạng thái đăng nhập thật tùy thuộc vào tình huống
+    const userIsLoggedIn = false; // Đặt giá trị trạng thái đăng nhập thật tùy thuộc vào tình huống
     setIsLoggedIn(userIsLoggedIn);
+    setIsInitialLoad(false);
   }, [favoriteProducts]);
   const handleLogout = () => {
-    setIsLoggedIn(false);
+    setIsLoggedIn(true);
   };
   useEffect(() => {
     const favoriteProductIdsJSON = localStorage.getItem("favoriteProductIds");
@@ -82,13 +84,27 @@ function Header() {
       </div>
       <div className="navbar__icon">
         <div className="nav__icon">
-          <div>
+          <NavLink to="/search">
             <SearchIcon />
-          </div>
+          </NavLink>
           <div className="user-icon">
             <PersonOutlineIcon />
-            <div className="popup">
-              {isLoggedIn ? (
+            <div className={`popup ${isMenuOpen ? "open" : ""}`}>
+              {isInitialLoad ? (
+                <div>
+                  <div className="btn__loginheader">
+                    <NavLink className="btn__login" to="/login">
+                      Login
+                    </NavLink>
+                  </div>
+                  <div className="btn__signupheader">
+                    <span>
+                      Not registered yet?
+                      <NavLink to="/signup">Create an account</NavLink>
+                    </span>
+                  </div>
+                </div>
+              ) : isLoggedIn ? (
                 <div className="user-info">
                   <p>Thông tin tài khoản</p>
                   <button onClick={() => handleLogout()}>Đăng xuất</button>
@@ -110,9 +126,10 @@ function Header() {
               )}
             </div>
           </div>
+
           <div>
             <NavLink to="/favorites">
-              <FavoriteBorderIcon />
+              <FavoriteBorderIcon className="fvr_icon" />
             </NavLink>
             <span className="favorite-count">{favoriteCount}</span>
           </div>

@@ -1,11 +1,28 @@
 .login-container {
+  font-family: ui-rounded;
+  width: 100%;
+  flex: 1 0 32.42857rem;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: clip;
 }
 .login-page {
   margin-top: 12rem;
+  width: 100%;
   display: flex;
   height: 100vh; /* Đảm bảo chiều cao bằng cả màn hình */
 }
-
+.color__login {
+  text-align: center;
+  background-color: #f9b949;
+  padding: 20px 0px;
+  width: 100%;
+  position: relative;
+}
 .image-section {
   flex: 2; /* Chiếm 1/3 chiều rộng của container cha */
   background-color: rgba(0, 0, 0, 0.1); /* Background mờ */
@@ -21,63 +38,123 @@
   align-items: center;
 }
 
-.login-container {
-  flex: 1 0 32.42857rem;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
 .h2__button {
   font-size: 2rem;
 }
 .login-container h2 {
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 40px;
+  margin-bottom: 2.85714rem;
 }
 
-.form__row {
+.form__rowlogin {
   margin-bottom: 15px;
 }
 
-.form__row label {
+.form__rowlogin label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  font-weight: 500;
 }
 
-.form__input {
-  width: 100%;
-  padding: 10px;
+.form__inputlogin {
+  width: 86%;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  border: 1px solid;
 }
 
-.form__input:focus {
+.form__inputlogin:focus {
   outline: none;
   border-color: #007bff;
 }
-
-button {
-  background-color: #007bff;
+.forgot__nav {
+  padding: 6px 5px;
+}
+.forgot__pass {
+  text-decoration: revert;
+  color: #4e4646;
+}
+.forgot__pass:hover {
+  color: #000;
+}
+.remember {
+  margin: 7px 0;
+}
+.btn__login {
+  background-color: #000;
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 10px 0px;
+  width: 100%;
   cursor: pointer;
   font-size: 16px;
+  margin: 20px 0;
 }
 
-button:hover {
-  background-color: #0056b3;
+.btn__login:hover {
+  background: #f9b949;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .error {
   color: #ff0000;
   margin-top: 10px;
 }
+.Or__login {
+  text-align: center;
+}
+.nav__create {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+.signup__login {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid;
+  padding: 7px 135px;
+}
+.signup__login:hover {
+  background: #000;
+  color: #fff;
+  transition: background-color 0.6s, color 0.3s;
+}
+.li__login {
+  margin: 10px 0;
+  list-style: none;
+}
 
-/* Các phần CSS khác liên quan đến form đăng nhập */
+.icon__login {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.password-input {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 739px) {
+  .image-section {
+    display: none;
+  }
+  .login-container {
+    max-width: 80%;
+  }
+  .signup__login {
+    padding: 7px 60px;
+  }
+}

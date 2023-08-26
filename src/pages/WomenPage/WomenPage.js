@@ -107,7 +107,7 @@ function WomenPage() {
                 <div className="img__products">
                   <div className="img__container">
                     <div className="image__wrapper">
-                      <NavLink to={`/product/${product.id}`}>
+                      <NavLink to={`/products/${product.id}`}>
                         <img
                           className="img__women"
                           src={product.image}
@@ -122,7 +122,7 @@ function WomenPage() {
                       </div>
                     </div>
                     <div className="image__wrapper">
-                      <NavLink to={`/product/${product.id}`}>
+                      <NavLink to={`/products/${product.id}`}>
                         <img
                           className="img__women2"
                           src={product.image2}

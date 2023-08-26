@@ -5,6 +5,8 @@ import WomenPage from "../pages/WomenPage/WomenPage";
 import FavoritePage from "../pages/FavoritePage/Favorite";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
+import Search from "../pages/Search/Search";
+import Product from "../pages/Products/Products";
 export default function Routers() {
   return (
     <Routes>
@@ -14,6 +16,8 @@ export default function Routers() {
       <Route path="/woman" element={<WomenPage />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/search" element={<Search />} />
+      <Route path="/products/:productId" element={<Product />} />
     </Routes>
   );
 }

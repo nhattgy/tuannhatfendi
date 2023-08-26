@@ -1,0 +1,98 @@
+.search__container {
+  margin-top: 8rem;
+  position: relative;
+}
+
+.img__results {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.img__2product {
+  margin: 0 3px;
+}
+.form__serach {
+  position: relative;
+  background-color: #fff;
+}
+.search__result {
+  width: calc(
+    25% - 2px
+  ); /* 3 ảnh trên 1 dòng, với khoảng cách 10px giữa các ảnh */
+  gap: 5px;
+  text-align: center;
+}
+
+.search__result img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 5px;
+}
+.input__serch {
+  border: none;
+  width: 100%;
+  outline: none;
+  color: #000;
+  padding-left: 9.57143rem;
+  text-align: left;
+  font-family: founders-grotesk, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background-color: #fff;
+  font-size: 16px;
+  border-bottom: 2px solid;
+}
+
+.search__container label {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -625%);
+  left: 1.42857rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.name__tilesearch {
+  margin: 5px 0;
+}
+.name__tilesearch:hover {
+  color: orange;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.popular__h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.popular__searches {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  left: 9.78rem;
+}
+.popular__keyword {
+  margin: 12px 0;
+  cursor: pointer;
+  color: #7a7575;
+}
+.popular__keyword:hover {
+  color: #000;
+}
+@media screen and (max-width: 739px) {
+  .search__result {
+    width: calc(100%);
+  }
+  .search__result img {
+    margin: 0;
+  }
+  .search__container label {
+    display: none;
+  }
+  .input__serch {
+    position: absolute;
+    right: -2rem;
+  }
+  .popular__searches {
+    left: 2rem;
+    margin-top: 1rem;
+  }
+}

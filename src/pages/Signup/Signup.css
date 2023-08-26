@@ -1,6 +1,6 @@
 /* Signup.css */
 .signup-page {
-  margin-top: 7rem;
+  margin-top: 12rem;
   height: 100vh;
   display: flex;
 }
@@ -13,6 +13,8 @@
 }
 .signup-page {
   display: flex;
+  width: 100%; /* Set the width to 100% */
+  min-height: 120vh;
 }
 .signup-container {
   flex: 1 0 32.42857rem;
@@ -29,20 +31,60 @@
   font-weight: bold;
 }
 .form__input {
-  width: 100%;
-  padding: 10px;
+  width: 86%;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  border: 1px solid;
 }
 .signup__container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: clip;
   flex: 1;
-  display: flex;
+
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   padding: 20px; /* Thêm khoảng cách cho phần nội dung */
   box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng */
 }
+.btn__register {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 0px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.btn__register:hover {
+  background: #f9b949;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+.password-input {
+  position: relative;
+}
 
+.password-icon {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 739px) {
+  .image-section {
+    display: none;
+  }
+  .signup__container {
+    width: 80%;
+  }
+}
 /* Thêm phần còn lại của CSS nếu cần thiết */

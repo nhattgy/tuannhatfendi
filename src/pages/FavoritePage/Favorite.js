@@ -4,11 +4,14 @@ import { useDispatch } from "react-redux";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { fetchProducts } from "../../api/Axiosproducts/Axiosproducts";
 import "./Favorite.css";
+import { NavLink } from "react-router-dom";
 function FavoritePage() {
   const [favoriteProductIds, setFavoriteProductIds] = useState([]);
   const [favoriteProducts, setFavoriteProducts] = useState([]);
   const dispatch = useDispatch();
-
+  const handleBackToShop = () => {
+    window.location.href = "/home"; // Chuyển hướng trang
+  };
   useEffect(() => {
     const storedFavorites = localStorage.getItem("favoriteProductIds");
     if (storedFavorites) {
@@ -51,11 +54,16 @@ function FavoritePage() {
       <h2 className="h2__fvr">Your Favorite Products</h2>
       <div className="favorite-products">
         {favoriteProducts.map((product) => (
-          <div key={product.id} className="favorite-product">
+          <NavLink
+            style={{ textDecoration: "none", color: "#000" }}
+            to={`/products/${product.id}`}
+            key={product.id}
+            className="favorite-product"
+          >
             <img src={product.image} alt={product.name} />
-            <div className="favorite_icon">
-              <FavoriteIcon />
-            </div>
+            <NavLink className="favorite_icon">
+              <FavoriteIcon style={{ color: "#000" }} />
+            </NavLink>
             <div className="span__name">
               <p className="product__name">{product.name}</p>
               <div className="btn__fvr">
@@ -65,10 +73,12 @@ function FavoritePage() {
                 >
                   Remove
                 </button>
-                <button className="btn__addcart">Back Shop</button>
+                <button onClick={handleBackToShop} className="btn__addcart">
+                  Back Shop
+                </button>
               </div>
             </div>
-          </div>
+          </NavLink>
         ))}
       </div>
     </div>

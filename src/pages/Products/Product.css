@@ -1,0 +1,143 @@
+.product-details {
+  margin-top: 100px;
+}
+.product-details {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.img__prd {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.product__img-container {
+  width: 100%;
+  max-width: auto; /* Đảm bảo kích thước tối đa cho phần tử chứa hình ảnh */
+}
+
+.product__img {
+  width: 100%; /* Hiển thị hình ảnh 100% trong phần tử chứa */
+  height: auto;
+  margin: 0 10px;
+}
+
+.img__circle {
+  width: 70px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img__product {
+  margin-right: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Đảm bảo hình ảnh không bị bóp méo */
+}
+
+.product-info {
+  margin: 0 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.product-name {
+  font-family: sans-serif;
+}
+.product-name,
+.product-description,
+.product-description {
+}
+.product-description {
+  max-width: 68%;
+  margin-top: 2.14286rem;
+  font-size: 1rem;
+  line-height: 1.78571rem;
+  font-weight: 500;
+  border-top: 1px solid #cbc5c5;
+  border-bottom: 1px solid #cbc5c5;
+}
+
+.service-item h4 {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.slider-container {
+  width: 100%;
+  height: 5px; /* Chiều cao của thanh trượt */
+  position: relative;
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.slider {
+  width: 100%;
+  height: 20%;
+  background-color: white; /* Màu trắng ban đầu */
+  position: absolute;
+  animation: slideAnimation 6s linear infinite; /* Tổng thời gian 6s (3s mỗi đoạn) */
+}
+
+@keyframes slideAnimation {
+  0%,
+  100% {
+    background-color: white; /* Màu trắng ban đầu */
+    transform: translateX(-100%);
+  }
+  50% {
+    background-color: black; /* Màu đen sau 3s */
+    transform: translateX(0); /* Di chuyển đoạn ra khỏi tầm nhìn */
+  }
+}
+
+.service-item h4 svg {
+  margin-right: 10px; /* Khoảng cách giữa biểu tượng và chữ */
+}
+.also__like {
+  display: flex;
+  overflow-x: scroll; /* Cho phép cuộn ngang khi hình ảnh nhiều */
+}
+
+.also__like img {
+  flex: 0 0 calc(100% / 5); /* Chia đều chiều rộng cho 5 hình ảnh */
+  height: auto;
+  object-fit: cover; /* Đảm bảo ảnh chiếm hết không gian */
+}
+.product-details {
+  display: flex;
+}
+
+.img__prd {
+  flex: 1;
+}
+
+.product-info {
+  flex: 2;
+}
+
+@media screen and (max-width: 1282px) {
+  .product-details {
+    display: block;
+  }
+  .product-info {
+    margin: 0 6px;
+  }
+  .product-description {
+    max-width: 98%;
+  }
+  .product__img {
+    margin: 0;
+  }
+  .slider-container {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 860px) {
+  .also__like img {
+    flex: 0 0 calc(100% / 3); /* Chia đều chiều rộng cho 5 hình ảnh */
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh chiếm hết không gian */
+  }
+}
