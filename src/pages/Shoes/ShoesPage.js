@@ -2,16 +2,17 @@ import React, { useEffect, useState } from "react";
 import { fetchProducts } from "../../api/Axiosproducts/Axiosproducts";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import "./WomenPage.css";
+
 import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToFavorites } from "../../action/favoriteActions";
 
-function WomenPage() {
+function Shoes() {
   const [products, setProducts] = useState([]);
   const [numToShow, setNumToShow] = useState(12);
   const productsToShow = products.slice(0, numToShow);
   const [favoriteCount, setFavoriteCount] = useState(0);
+  const [startIndex, setStartIndex] = useState(40);
   const dispatch = useDispatch();
 
   const [favoriteProductIds, setFavoriteProductIds] = useState([]);
@@ -48,9 +49,9 @@ function WomenPage() {
     if (activeCategory === "New In") {
       setFilteredProducts(products);
     } else {
-      const regex = new RegExp(activeCategory, "i"); // "i" ở đây đại diện cho tìm kiếm không phân biệt chữ hoa chữ thường
-      const filtered = products.filter((product) =>
-        regex.test(product.category)
+      const filtered = products.filter(
+        (product) =>
+          product.category.toLowerCase() === activeCategory.toLowerCase()
       );
       setFilteredProducts(filtered);
     }
@@ -58,7 +59,8 @@ function WomenPage() {
 
   const handleButtonClick = (category) => {
     setActiveCategory(category);
-    setNumToShow(9);
+    setStartIndex(0); // Reset to start from the beginning
+    setNumToShow(12);
   };
 
   const buttonLabels = [
@@ -72,6 +74,7 @@ function WomenPage() {
   ];
 
   const handleViewMoreClick = () => {
+    setStartIndex(startIndex + 2);
     setNumToShow(numToShow + 2);
   };
 
@@ -102,48 +105,52 @@ function WomenPage() {
       <div className="main-content">
         <div className="main__product">
           <div className="map__method">
-            {filteredProducts.slice(0, numToShow).map((product) => (
-              <div key={product.id} className="product__item">
-                <div className="img__products">
-                  <div className="img__container">
-                    <div className="image__wrapper">
-                      <NavLink to={`/products/${product.id}`}>
-                        <img
-                          className="img__women"
-                          src={product.image}
-                          alt={product.name}
-                        />
-                      </NavLink>
-                      <div className="span__nameproduct">
-                        <span className="name__product">{product.name}</span>
-                        <div className="span__text">
-                          <span className="span__product">{product.title}</span>
+            {filteredProducts
+              .slice(startIndex, startIndex + numToShow)
+              .map((product, index) => (
+                <div key={product.id} className="product__item">
+                  <div className="img__products">
+                    <div className="img__container">
+                      <div className="image__wrapper">
+                        <NavLink to={`/products/${product.id}`}>
+                          <img
+                            className="img__women"
+                            src={product.image}
+                            alt={product.name}
+                          />
+                        </NavLink>
+                        <div className="span__nameproduct">
+                          <span className="name__product">{product.name}</span>
+                          <div className="span__text">
+                            <span className="span__product">
+                              {product.title}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="image__wrapper">
-                      <NavLink to={`/products/${product.id}`}>
-                        <img
-                          className="img__women2"
-                          src={product.image2}
-                          alt={product.name}
-                        />
-                      </NavLink>
-                      <div className="favorite-icon-container">
-                        {favoriteProductIds.includes(product.id) ? ( // Check if the product is favorited
-                          <FavoriteIcon className="favorite__icon" />
-                        ) : (
-                          <FavoriteBorderIcon
-                            className="favorite__icon"
-                            onClick={() => handleAddToFavorite(product)}
+                      <div className="image__wrapper">
+                        <NavLink to={`/products/${product.id}`}>
+                          <img
+                            className="img__women2"
+                            src={product.image2}
+                            alt={product.name}
                           />
-                        )}
+                        </NavLink>
+                        <div className="favorite-icon-container">
+                          {favoriteProductIds.includes(product.id) ? ( // Check if the product is favorited
+                            <FavoriteIcon className="favorite__icon" />
+                          ) : (
+                            <FavoriteBorderIcon
+                              className="favorite__icon"
+                              onClick={() => handleAddToFavorite(product)}
+                            />
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
           <div className="center-button-container">
             {numToShow < filteredProducts.length && (
@@ -161,4 +168,4 @@ function WomenPage() {
   );
 }
 
-export default WomenPage;
+export default Shoes;

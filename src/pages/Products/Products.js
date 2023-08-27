@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import TodayIcon from "@mui/icons-material/Today";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import RedeemIcon from "@mui/icons-material/Redeem";
@@ -105,8 +105,9 @@ function Product() {
         </div>
       </div>
       <h1>You might also like</h1>
-      <div to={`/products/${product.id}`} className="also__like">
-        {relatedProducts.slice(0, 9).map((relatedProduct) => (
+
+      <div className="also__like">
+        {relatedProducts.slice(35, 49).map((relatedProduct) => (
           <img
             className="img__2product"
             key={relatedProduct.id}

@@ -68,8 +68,8 @@ function Header() {
           <NavLink to="/man" className="navbar__li">
             MAN
           </NavLink>
-          <NavLink to="/kid" className="navbar__li">
-            KIDS
+          <NavLink to="/shoes" className="navbar__li">
+            SHOES
           </NavLink>
           <NavLink to="/gift" className="navbar__li">
             GIFT IDEAS

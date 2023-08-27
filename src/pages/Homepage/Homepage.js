@@ -7,7 +7,8 @@ import banner2 from "../../asset/banner2.avif";
 import banner3 from "../../asset/banner3.avif";
 import banner4 from "../../asset/banner4.avif";
 import banner5 from "../../asset/banner5.avif";
-import banner6 from "../../asset/banner6.avif"
+import banner6 from "../../asset/banner6.avif";
+import { NavLink } from "react-router-dom";
 function Homepage() {
   return (
     <div className="grid wide">
@@ -21,12 +22,14 @@ function Homepage() {
                 alt="Banner 1"
               />
 
-              <div className="text__shopwomen">
-                Shop Women
-                <div className="btn__shop">
-                  <button className="btn__text">Shop Now</button>
+              <NavLink to="/woman">
+                <div className="text__shopwomen">
+                  Shop Women
+                  <div className="btn__shop">
+                    <button className="btn__text">Shop Now</button>
+                  </div>
                 </div>
-              </div>
+              </NavLink>
             </div>
             <div className="banner2__homepage ">
               <img
@@ -35,12 +38,14 @@ function Homepage() {
                 alt="Banner 2"
               />
 
-              <div className="text__shopboy">
-                Shop Boy
-                <div className="btn__shop">
-                  <button className="btn__text">Shop Now</button>
+              <NavLink to="/man">
+                <div className="text__shopboy">
+                  Shop Boy
+                  <div className="btn__shop">
+                    <button className="btn__text">Shop Now</button>
+                  </div>
                 </div>
-              </div>
+              </NavLink>
             </div>
           </div>
           <div className="banner3__homepage banner__item">
@@ -54,12 +59,14 @@ function Homepage() {
                 alt="Banner 1"
               />
 
-              <div className="text__shopwomen">
-               Women's Bags
-                <div className="btn__shop">
-                  <button className="btn__text">Shop Now</button>
+              <NavLink to="/woman">
+                <div className="text__shopwomen">
+                  Women's Bags
+                  <div className="btn__shop">
+                    <button className="btn__text">Shop Now</button>
+                  </div>
                 </div>
-              </div>
+              </NavLink>
             </div>
             <div className="banner2__homepage ">
               <img
@@ -67,20 +74,19 @@ function Homepage() {
                 src={banner5}
                 alt="Banner 2"
               />
-
-              <div className="text__shopboy">
-                Men's Bags
-                <div className="btn__shop">
-                  <button className="btn__text">Shop Now</button>
+              <NavLink to="/man">
+                <div className="text__shopboy">
+                  Men's Bags
+                  <div className="btn__shop">
+                    <button className="btn__text">Shop Now</button>
+                  </div>
                 </div>
-              </div>
+              </NavLink>
             </div>
           </div>
           <div className="banner3__homepage banner__item">
             <img className="banner3__img" src={banner6} />
-           
           </div>
-          
         </div>
       </div>
     </div>

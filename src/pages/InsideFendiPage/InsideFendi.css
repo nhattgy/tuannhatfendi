@@ -1,0 +1,66 @@
+.fendi__container {
+  margin-top: 5rem;
+  position: relative;
+  display: flex;
+  font-family: initial;
+}
+.img__fendi {
+  width: 100%;
+
+  text-align: center;
+}
+.h1__fendi {
+  display: flex;
+  justify-content: center;
+  width: 73%;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 6.7142857143rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text__every {
+  padding: 70px 260px;
+  text-align: center;
+}
+.center__text,
+.center__p {
+  margin: 1.7rem 0;
+  font-size: 19px;
+}
+.center__text {
+  font-size: 22px;
+}
+.video__insidefendi {
+  width: 100%;
+  max-width: 100%; /* Tùy chỉnh kích thước video */
+  margin: 0 auto;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* Tính theo tỷ lệ khung hình 16:9 */
+  overflow: hidden;
+}
+
+.custom-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.text__box {
+  padding: 5rem 18.5714285714rem;
+  justify-content: center;
+  display: flex;
+}
+.p__inside {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.text__div {
+  margin: 2rem 0;
+}
