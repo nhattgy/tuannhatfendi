@@ -140,4 +140,7 @@
     height: auto;
     object-fit: cover; /* Đảm bảo ảnh chiếm hết không gian */
   }
+  .img__2product{
+    width: 100%;
+  }
 }

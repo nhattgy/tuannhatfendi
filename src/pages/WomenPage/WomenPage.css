@@ -63,7 +63,7 @@
   font-size: 15px;
   max-width: 556px;
 }
-//Products
+
 .main__product {
   display: flex;
   justify-content: center;
@@ -117,7 +117,17 @@
   position: relative;
   margin: 0 -43px;
 }
+.img__women,
+.img__women2 {
+  max-width: 100%;
+  height: auto;
+}
 
+/* Đảm bảo rằng hình ảnh không vượt quá kích thước của container */
+.img__container {
+  max-width: 100%;
+  overflow: hidden;
+}
 .img__women2 {
   position: absolute;
   top: 0;
@@ -221,7 +231,7 @@
 .favorite-icon-container {
   position: absolute;
   top: 0;
-  right: 43px;
+  right: 0;
   padding: 8px;
 }
 .favorite__icon {

@@ -1,12 +1,19 @@
 import React from "react";
 import imageinsidefendi from "../../asset/inside.avif";
-import ReactPlayer from "react-player";
+import inside2 from "../../asset/inside2.avif";
+import inside3 from "../../asset/inside3.avif";
+import inside4 from "../../asset/inside4.avif";
+import inside5 from "../../asset/inside5.avif";
+import inside6 from "../../asset/inside6.avif";
+import inside7 from "../../asset/inside7.avif";
+import inside8 from "../../asset/inside8.avif";
+
 import "./InsideFendi.css";
 function InsideFendiPage() {
   return (
-    <div>
+    <div className="fendi__inside__container">
       <div className="fendi__container">
-        <div className="img__insidefendi">
+        <div className="img__inside fendi">
           <h1 className="h1__fendi">Fendi Women’s Fall/Winter 2023</h1>
           <img className="img__fendi" src={imageinsidefendi} />
         </div>
@@ -68,6 +75,30 @@ function InsideFendiPage() {
               Migoa Majoang, Farah Nieuwburg
             </p>
           </div>
+        </div>
+      </div>
+      <div className="img__main">
+        {" "}
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside2} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside3} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside4} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside5} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside6} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside7} />
+        </div>
+        <div className="img__boxinside">
+          <img className="img__inside " src={inside8} />
         </div>
       </div>
     </div>

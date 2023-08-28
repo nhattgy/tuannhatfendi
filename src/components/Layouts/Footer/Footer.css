@@ -66,4 +66,7 @@
   .footer-section__input {
     display: none;
   }
+  .footer{
+    padding: 0;
+  }
 }

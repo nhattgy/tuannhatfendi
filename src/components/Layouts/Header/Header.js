@@ -7,15 +7,17 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { NavLink } from "react-router-dom";
+import CloseIcon from "@mui/icons-material/Close";
 
 import "./Header.css";
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const favoriteProducts = useSelector((state) => state.favorites);
   const [favoriteCount, setFavoriteCount] = useState(0);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isInitialLoad, setIsInitialLoad] = useState(true);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -27,20 +29,12 @@ function Header() {
       setIsScrolled(false);
     }
   };
-
-  useEffect(() => {
-    const favoriteProductIdsJSON = localStorage.getItem("favoriteProductIds");
-    const favoriteProductIds = JSON.parse(favoriteProductIdsJSON) || [];
-    setFavoriteCount(favoriteProductIds.length);
-
-    // Kiểm tra xem người dùng đã đăng nhập hay chưa
-    // Thay thế bằng phần kiểm tra trạng thái đăng nhập thật của bạn
-    const userIsLoggedIn = false; // Đặt giá trị trạng thái đăng nhập thật tùy thuộc vào tình huống
-    setIsLoggedIn(userIsLoggedIn);
-    setIsInitialLoad(false);
-  }, [favoriteProducts]);
-  const handleLogout = () => {
+  const handleLogin = () => {
     setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
   };
   useEffect(() => {
     const favoriteProductIdsJSON = localStorage.getItem("favoriteProductIds");
@@ -89,36 +83,25 @@ function Header() {
           </NavLink>
           <div className="user-icon">
             <PersonOutlineIcon />
-            <div className={`popup ${isMenuOpen ? "open" : ""}`}>
-              {isInitialLoad ? (
-                <div>
-                  <div className="btn__loginheader">
-                    <NavLink className="btn__login" to="/login">
-                      Login
-                    </NavLink>
-                  </div>
-                  <div className="btn__signupheader">
-                    <span>
-                      Not registered yet?
-                      <NavLink to="/signup">Create an account</NavLink>
-                    </span>
-                  </div>
-                </div>
-              ) : isLoggedIn ? (
+            <div className={`popup ${isLoggedIn ? "open" : ""}`}>
+              {isLoggedIn ? (
                 <div className="user-info">
                   <p>Thông tin tài khoản</p>
-                  <button onClick={() => handleLogout()}>Đăng xuất</button>
+                  <button className="text-slate-950" onClick={handleLogout}>
+                    Đăng xuất
+                  </button>
                 </div>
               ) : (
                 <div>
-                  <div className="btn__loginheader">
-                    <NavLink className="btn__login" to="/login">
+                  <NavLink className=" login" to="/login">
+                    <button className="btn__login" onClick={handleLogin}>
                       Login
-                    </NavLink>
-                  </div>
+                    </button>
+                  </NavLink>
+
                   <div className="btn__signupheader">
                     <span>
-                      Not registered yet?
+                      Not registered yet?{" "}
                       <NavLink to="/signup">Create an account</NavLink>
                     </span>
                   </div>
@@ -139,36 +122,62 @@ function Header() {
           <div className="nav__mobile">
             <div className="navbar__menu">
               <button className="menu__icon" onClick={toggleMenu}>
-                <MenuIcon style={{ marginTop: "-6px", color: "#000" }} />
+                {isMenuOpen ? (
+                  <CloseIcon style={{ marginTop: "-6px", color: "#000" }} />
+                ) : (
+                  <MenuIcon style={{ marginTop: "-6px", color: "#000" }} />
+                )}
               </button>
             </div>
           </div>
-          <div className="nav__menu">
+          <div className={`nav__menu ${isMenuOpen ? "open" : ""}`}>
             <ul className="navbar__ulmobiletablet">
               <NavLink to="/woman" className="navbar__limobiletablet">
                 WOMAN
-                <ArrowForwardIosIcon className="arrow__menu" />
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
-              <NavLink className="navbar__limobiletablet">
-                MAN <ArrowForwardIosIcon className="arrow__menu" />
+              <NavLink to="/man" className="navbar__limobiletablet">
+                MAN{" "}
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
-              <NavLink className="navbar__limobiletablet">
-                KIDS <ArrowForwardIosIcon className="arrow__menu" />
+              <NavLink to="/shoes" className="navbar__limobiletablet">
+                SHOES{" "}
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
-              <NavLink className="navbar__limobiletablet">
-                GIFT IDEAS <ArrowForwardIosIcon className="arrow__menu" />
+              <NavLink to="/gift" className="navbar__limobiletablet">
+                GIFT IDEAS{" "}
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
-              <NavLink className="navbar__limobiletablet">
+              <NavLink to="/decor" className="navbar__limobiletablet">
                 HOME DECOR & LIFSTYLE{" "}
-                <ArrowForwardIosIcon className="arrow__menu" />
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
-              <NavLink className="navbar__limobiletablet">
-                INSIDE FENDI <ArrowForwardIosIcon className="arrow__menu" />
+              <NavLink to="/fendi" className="navbar__limobiletablet">
+                INSIDE FENDI{" "}
+                <ArrowForwardIosIcon
+                  style={{ fontSize: "16px" }}
+                  className="arrow__menu"
+                />
               </NavLink>
               <div className="line"></div>
             </ul>

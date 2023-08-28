@@ -6,45 +6,56 @@ import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-import { loginUser } from "../../api/User/User"; // Thay đổi đường dẫn tới apiService của bạn
+import imglogin from "../../asset/login.avif";
+import { loginUser } from "../../api/User/User"; // Update the path to your API service
 import "./Login.css";
+
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const navigate = useNavigate(); // Sử dụng useNavigate để chuyển trang
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // New state for login status
+  const [loginSuccess, setLoginSuccess] = useState(false); // New state for login success
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
 
     if (rememberMe) {
-      // Lưu thông tin đăng nhập nếu ô checkbox được chọn
       localStorage.setItem("rememberedEmail", email);
     }
     try {
       const response = await loginUser({ email, password });
       if (response.length > 0) {
-        // Đăng nhập thành công, chuyển đến trang sau khi đăng nhập thành công
-        navigate("/home"); // Thay đổi đường dẫn tới trang sau khi đăng nhập thành công
+        const authenticatedUser = response[0];
+        localStorage.setItem("username", authenticatedUser.username);
+        localStorage.setItem("userId", authenticatedUser.id);
+
+        setIsLoggedIn(true); // Set the login status to true
+        setLoginSuccess(true); // Set the login success status to true
+        setError(""); // Clear any previous error message
+        navigate("/home");
+        window.alert("Login successful!"); // Show an alert for successful login
       } else {
         setError("Email hoặc mật khẩu không đúng.");
+        setLoginSuccess(false); // Set the login success status to false
       }
     } catch (error) {
       setError("Đã xảy ra lỗi khi đăng nhập.");
-    }
-    if (rememberMe) {
-      // Lưu thông tin đăng nhập nếu ô checkbox được chọn
-      localStorage.setItem("rememberedEmail", email);
+      setLoginSuccess(false); // Set the login success status to false
     }
   };
+
   const togglePasswordVisibility = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
   return (
     <div className="login-page">
-      <div className="image-section"></div>
+      <div className="image-section">
+        <img className="img__login" src={imglogin} />
+      </div>
       <div className="login-container">
         <div className="color__login">FENDI & ME</div>
         <h2 className="h2__login">Login</h2>
@@ -99,6 +110,7 @@ function Login() {
               Create an acount
             </NavLink>
           </div>
+          {loginSuccess && <p className="success">Login successful!</p>}
           {error && <p className="error">{error}</p>}
         </form>
         <div className="form__ul">

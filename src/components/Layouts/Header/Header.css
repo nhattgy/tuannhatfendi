@@ -9,7 +9,7 @@
   left: 0;
 
   background-color: transparent;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.9, color 0.9;
   z-index: 1000;
 }
 .Header-container.scrolled {
@@ -115,7 +115,7 @@
 .nav__icon svg {
   color: #8d7f7f;
   margin: 0; /* Tạo khoảng cách giữa các biểu tượng */
-  transition: transform 0.3s ease-in-out; /* Hiệu ứng mượt mà */
+  transition: transform 0.9 ease-in-out; /* Hiệu ứng mượt mà */
 }
 
 .nav__icon svg:hover {
@@ -131,7 +131,7 @@
   position: absolute;
   bottom: -5px; /* Điều chỉnh vị trí của gạch chân */
   left: 0;
-  transition: width 0.3s ease-in-out; /* Hiệu ứng mượt mà khi thay đổi chiều dài */
+  transition: width 0.9 ease-in-out; /* Hiệu ứng mượt mà khi thay đổi chiều dài */
 }
 .nav__icon {
   position: relative;
@@ -150,10 +150,12 @@
   align-items: center;
   position: relative;
 }
-
+.navbar__mobiletablet {
+  display: none;
+}
 .nav__icon svg {
   margin: 0 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9 ease-in-out;
 }
 .nav__icon {
   display: flex;
@@ -167,10 +169,10 @@
 .popup {
   display: none;
   position: fixed;
-  top: 3.1rem;
+  top: 3.3rem;
   transform: translateX(-50%);
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   z-index: 100; /* Đảm bảo bảng hiển thị trên top */
   width: 300px; /* Tuỳ chỉnh độ rộng của bảng popup */
@@ -187,7 +189,7 @@
   border: 2px solid transparent; /* Viền trong suốt ban đầu */
   color: #fff; /* Màu chữ */
   cursor: pointer;
-  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  transition: background-color 0.9, border-color 0.9, color 0.9;
 }
 .btn__login,
 .btn__loginheader :hover {
@@ -208,15 +210,27 @@
 .btn__signup:hover {
   color: red;
 }
+.navbar__menu {
+  transition: transform 0.3s ease-in-out; /* Apply transition to transform property */
+}
 .navbar__ulmobiletablet {
-  display: none;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
   width: 100%;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin-top: 17px;
   padding: 0;
 }
-
+.navbar__mobiletablet.open .navbar__ulmobiletablet {
+  max-height: 120px; /* Set a value that is large enough to accommodate your content */
+}
 .navbar__ulmobiletablet.open {
   display: flex;
   flex-direction: column;
@@ -240,7 +254,6 @@
 .arrow__menu {
   position: absolute;
   right: 0rem;
-
   width: 25px;
   height: 16px;
 }
@@ -249,6 +262,9 @@
 @media screen and (max-width: 1022px) {
   .navbar__pc {
     display: none;
+  }
+  .navbar__mobiletablet {
+    display: block;
   }
   .Header-container {
     position: static;

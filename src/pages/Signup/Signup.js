@@ -6,6 +6,7 @@ import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
+import imglogin from "../../asset/login.avif";
 import { registerUser } from "../../api/User/User";
 import "./Signup.css";
 
@@ -19,6 +20,7 @@ function Signup() {
   });
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -38,20 +40,29 @@ function Signup() {
     try {
       const response = await registerUser(formData);
       alert("Registration successful!");
+
+      // Store registration data in local storage
+      localStorage.setItem("registrationData", JSON.stringify(formData));
+      localStorage.setItem("registeredUserEmail", formData.email);
+
       navigate("/login");
     } catch (error) {
       alert("Registration failed. Please try again.");
     }
   };
+
   const togglePasswordVisibility = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
+
   return (
     <div className="signup-page">
-      {" "}
-      <div className="image-section"></div>{" "}
+      
+      <div className="image-section">
+        <img src={imglogin} />
+      </div>
       <div className="signup__container">
-        {" "}
+        
         <div className="color__login">FENDI & ME</div>
         <div className="form__ul">
           <ul className="ul__login">
